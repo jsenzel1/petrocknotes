@@ -1,0 +1,152 @@
+show video
+
+ask about what could be improved in video
+
+//
+
+- First and foremost, what's the timeline? getting gear pre launch, filming video for launch? 
+
+- the idea of a slower post launch burn, growing from launch rather then setting up for a bang - is that realistic?
+
+- how much do people pay for promotion 
+
+[making a little outline really helps
+making a bullet point list of things im trying to say] 
+
+[wordle thing good, people will like it will hit hard]
+
+[the idea of it being a prompt is powerful - keep that in there - good way of thinking about it]
+
+[rare in eurorack where there's no control - completely different mentality] 
+
+[at 0:45 - so far doing great, but he cuts as many ums and ahs as possible - crisp and clean with no filler words][think he was saying generally i was doing well though, not some problem with that specific point]
+
+[as the person who made this I can flash it with any parameter that I want - I can show it on a different day, different mood, different moon] 
+
+[there's gonna be a real challenge showing it off because people can't see different rhythms - I have to show off the variety etc. - maybe with some pre set dates - they can't do that I can] 
+
+[bring up the software update and clock set thing - how is it not going to get desynced?? show that in video] 
+
+[maybe bring up how many colors there are immediately][when he said this though, almost immediately after he heard ab how many there were in the video]
+
+[wants some euclidean phasing generator - this reminds him of it] 
+
+[keep it a mystery to some extent] 
+
+[look at whimsical wraps manuals - they keep it mysterious] 
+
+[mention in the video - the manual thing of keeping you on pace with natural phenomenon, not a direct moon translation]
+
+[how does a distributor show what a module looks like 
+clocking, multi function - you can always put a little blurb, in the title on the distributor page] 
+
+[it's a clock modulator of some kind]
+
+[it's a polyrhythm generator]
+
+[I have no idea how components are going to change price etc.he wouldn't say it out loud - say how much of a labor of love it is - say the price, but just 'price for the first run'] 
+
+[for a demo - you can start with showing the thing that people understand what its coming from - plain module sound, then 'draw the rest of the fucking owl' and add in a whole beat/section etc]
+
+[I'm doing a great job explaining it. Creators are going to be hard to sell on it. Dedicated creators are going to be hard to sell. There's nothing that someone else is going to do with it, that's going to show it off as well as I already did. Doesn't want me to get stuck in budget hell. use instagram to find people whose vibes I like, have them promote it in instagram a bit - in exchange for module etc. instagram barrier to entry is way lower than youtube. But he thinks, sending people my video, even the scratch one, will get people excited - everyone I send it to is going to have the same output on the same day *test this again* anywhere from $500-2k for a video from the creator - some people charge for videos but will also take on a project just because they want to. How will the module translate to a video that's 10-20 minutes long. The depth of the module is in its time] 
+
+[could give creators a 'time travel tool' that lets you set it for further in future]
+
+[you want to make sure that you don't oversaturate - be picky about how many people you're expecting content from. You don't want to bleed the feed - it will seem weird to people - they'll get antsy about that]
+
+[do some patches with it on instagram]
+
+[if I wanted him to do an explainer and insta video on youtuber - he would do it at cost ish for $500] 
+
+[check out instagram guy - matt lowrie] 
+
+[hainbach could be someone to approach]
+
+//
+
+- what email would you click on - wording etc. 
+[make it a cool up front cold email]
+
+[try to give as much information as possible]
+
+[I sent him the manual and the video, that was great]
+
+[a little bullet point in the email, it does this this this and this] 
+
+[being up front about budget would be good]
+
+[people will be a lot more receptive to that, rather then something that has to be kicked down the line and talked about later]
+
+[I have this module, here's what it does, manual, video
+I was hoping you could do this with it because this is what you do well, here's how much I can pay you, or I can't pay up (and say upfront)]
+
+[I think - tell people whatever their version of at cost is, that works for you]
+
+[highlight the fact that I'm not making any money out of this]
+
+[when the video review comes in really depends - before the product review is very common - spectraphone for example though - that was a really big release, reached out a big group of creators, more old school creators - those people had videos at launch. From what he heard, they plan on doing another round of promotion later this year, with the more new school people]
+
+[my video is going to do just fine in showing it off]
+
+[choosing a creator that I think has a decent following, to show off the module when it launches might not be a bad idea]
+
+[coverage at knobconn is a thing]
+
+- what booth would you cover at a con and why 
+
+- what elevator pitch works best
+
+//
+
+how the fuck are people gonna review this thing? 
+it takes months to change
+
+//
+
+- which creators to contact - who might be specifically interested 
+- getting more of a list 
+currently
+
+Ricky tinez
+Andrew huang [jeremy says he's not gonna do it]
+mylar melodies
+divkid
+benn jordan
+
+bobeats
+hainbach
+patchwerks
+
+//
+
+design thoughts? (hopefully software mostly)
+
+//
+
+distributors vs direct, which distributors are you more likely to buy from/think are legit?
+
+do you think there's a difference between the 20/30/40 dollar price point or is that negligible at that point
+
+//
+
+patchwerks
+
+[can hook me up with patchwerks]
+
+[he thinks perfect circuit will take my module]
+
+[if I'm giving the price list, the distributor fees will be mathed out easily - if I'm going to post that]
+
+[I'll have to deal with shipping and international shipping etc.]
+
+[he usually goes to a website - if they expect him to pay and don't give a paypal option he's annoyed - except internationally people get weird about paypal]
+
+another group to consider is signal sounds - out of the UK - they're the main distributor of instruo. Their shipping is really incredible
+
+[hes heard of them but does't think hes bought anything]
+
+[his main job is he teaches music tech]
+
+[the moment people read about something that they want - they will go look for media on it - so once its out there should be media - there's a value in having at least enough media on launch, the questions can be answered]
+
+

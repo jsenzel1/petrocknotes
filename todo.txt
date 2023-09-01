@@ -1,0 +1,104 @@
+- write manual 
+- manual graphics 
+
+x reverse protection testing
+
+- finish software
+
+- new design revisions 
+    - new light mask, extend it, shift positions of holes
+
+- test cr2016 and see if it will fit
+
+x sign up for knobcon
+
+//
+
+- joe videos with daniel (drummer) in weird filming locations
+
+- implement input normalizing 
+
+- test reich random 
+
+- low battery indicator?/var/folders/fq/wmz1g5w10fx__flx76qdnhl00000gn/T/TemporaryItems/NSIRD_screencaptureui_Y6SPFC/Screenshot\ 2023-06-25\ at\ 5.59.19\ PM.png 
+
+test and implement new algos
+ 
+do more rigorous long term simluation algo testing
+
+finalizing clock setting protocol
+do this first, implement the custom date additions, then use that to test different dates/years
+
+- daylight savings bug fix
+
+- test algo sparse phases 2 and 6
+
+//
+
+//DISTRO etc. 
+
+x talk to ben about expenses
+
+x synthcube vid
+
+//
+
+POSSIBLE BUG - TIME ZONE CHANGES WHEN THE FULL MOON IS THEORIZED TO BE IE PRE OR POST MIDNIGHT ON A GIVEN DAY - LOOK INTO THIS - LOOKS LIKE MOON GIANT USES UTC WHICH IS GOOD I THINK
+WONDER IF THATS ALSO WHY ALGORITHMIC WOULD SOMETIMES BE SLIGHTLY OFF
+
+should be able to add a +/- a day for the time zone's relationship to UTC time, because we're checking every night at midnight, what phase is it, all we need to do is keep in mind that the array is made according to UTC, so that midnight time of checking will be shifted
+
+need to implement, added timezone or UTC +/- for times
+
+maybe need to have another 36k array of times for moon stuff that gets referenced (ew) 2d array of 2xints, 0-24 and 0-60, or one number that represents both 0-2460
+
+taket the tm object gotten from the clock, convert it to UTC time, use that to determine the current phase from the array - is this hard? idk?
+
+but the data array probably isn't in UTC, it's probably in EST, because that's where my computer was when I converted. Check this - if its in EST, that's fine, just convert time to est when checking phase
+
+//
+
+videos 
+
+perfect circuit contact 
+europe contacts
+synthcube more contacts 
+
+// EXTRA BITS
+
+- decide official lisence
+
+manual printing
+
+stamps
+
+website 
+
+t-shirts 
+    - export schematics with different styling
+    - export pcb drawings
+    - export 3d renders and filter in blender
+
+promo/signs
+
+moon blanks
+
+stickers
+
+order them
+
+open source
+
+//
+
+for manual
+
+- thanks and dedications 
+- graphics from schematic etc.
+- site links 
+- guide to dif phases
+- guide to firmware update
+- DOMAIN is NECESSARY FOR THIS ^^^
+
+
+    - export

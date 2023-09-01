@@ -1,0 +1,356 @@
+generic variables X and Y
+
+global variables max step length
+random density
+slop
+
+^maybe globals get assigned to different modulators each lunar cycle for more emergence
+
+for shifting algo parameters over time - not just change the random max, but also the min, shifting the whole random window over time 
+
+"it's takes so long for the seasons to change, by the time the next one comes, you can barely remember what it felt like a year ago"
+^^remembering that coming back to things on a multi month basis is actually a very long time away
+
+calling the different colors epochs, and there are 8 rotating ones of them, each one taking a full lunar cycle to complete (because there are 8 readable colors on rgb - could even change the hue of the rgb over time but that seems confusing
+could flash all LEDs a certain color on startup to denote the current epoch (as a reminder) and even flash multipe times if that epoch has been seen by the user yet
+
+/////////////
+# AlGO-BASIC
+/////////////
+
+16 step set length
+variable step density (percent chance to turn a step on) 
+
+////////////////
+# ALGO-BASIC FUN
+////////////////
+
+same but variable step length, non variable density 
+
+^might be good to have 1 on output, one on the other
+ 
+/////////////
+# ALGO-REICH 
+/////////////
+
+X is rest length
+Y is steps to add (something small, like 1-3)
+
+roll for base XO
+
+plays 1st Y steps, then rests for X steps, then adds Y number of steps to be played in next time through
+
+once whole sequence is added and played through once, resets back to the first step
+
+///////////////////////
+# ALGO-REICH-NORMALIZED
+///////////////////////
+
+use an array called mutes, that additvely assigns 1(on) or 0(mute) to each step in the sequence in the same way the reich algo does
+so the length of the pattern is constant, just the active steps get revelealed and hidden over time 
+
+//////////////
+# ALGO-SUMMATION
+/////////////
+
+vars uknown
+
+Plays whole sequence repeating for X times where X is the length of the sequence in steps 
+remove one step from the end, repeat 
+reset when done
+
+could also have rest in between sets, either at random step length or the length of the current set
+
+ie for the sequence 
+
+xoxxo
+
+would be
+
+/
+xoxxo
+xoxxo
+xoxxo
+xoxxo
+xoxxo
+/
+xoxx
+xoxx
+xoxx
+xoxx
+/
+xox
+xox
+xox
+/
+xo
+xo
+/
+x
+
+/////////////////
+# ALGO-PAINTOVER
+/////////////////
+
+X - number of loops before overwriting a bit
+
+generates two patterns of equal length, different patterns though
+S1 and S1A 
+
+slowly rewrites s1 to s1a 
+
+swaps 1bit per x loops, in order from S1[ind] to S1A[ind]
+once one pattern is totally overwritten, starts writing back over to the other pattern, in an  infinite loop
+
+//////////////
+# ALGO-SKIPPY
+//////////////
+
+play once through
+then play every other step in sequence, for 2 loops
+then every third note for 3 loops, etc. unti only one note played
+
+//////////////
+# ALGO-CULTURE
+//////////////
+
+fuzzy idea
+storing a bunch of culturally significant pre written rhythms 
+then assigning 1 to each output
+
+maybe flipping some bits or something so they're slightly different but not so different to totally change the DNA
+
+good would prob be 1 bespoke rhythm + 1 generated for a patch 
+
+rhythms
+from african bell pattern and variations, common two part stroke rhythms 
+from latin different claves, rumba salsa bases etc. 
+from european hemiola, waltz, etc. 
+some from contemporary composers 
+
+also using inverted versions of the rhythms (swapping where x and o are)
+
+ALGO CULTURE ALT 
+putting those rhythms in a pattern with larger resolution 
+
+and moving some notes 1/32 or 1/64th off 
+
+
+/////////////////
+# ALGO-DISTRIBUTE
+/////////////////
+
+rather than rolling random for every step
+having a  pretermined amount of steps, then randomly distributing throughout the pattern 
+
+the number of steps could be static while the length of the loop changes 
+
+or - for another algorithm the number of steps could be a small random range 
+
+or, for another algorithm the length of loop could be static while the steps to be shuffled changes 
+
+implementation would be in the for loop the index that you set wouldn't be i, it would be a random location in the array
+
+///////////////////
+# ALGO-CLUMP
+///////////////////
+
+placing steps in clumps of 2 or more
+
+set amt of clumps and clump length 
+
+///////////////////
+# ALGO-TUPLE
+//////////////////
+start by placing tuplets of different lengths
+then adding some variation 
+
+
+//////////////
+# ALGO-SPARSE
+//////////////
+
+pattern with much more space
+and maybe 1 or 2 notes in it only
+
+then it can be clocked way faster and used like a polyrhythm/be way sloppier
+
+/////////////
+# ALGO-BlOCKS
+/////////////
+
+builds rhythms by randomly arranging 1 beat long blocks 
+maybe 16 beats long, maybe random # of blocks etc. 
+
+based on the rhythm trainer website - which would use 4 blocks, 1 'beat' each (we'll call it 4 steps, meaning 16 total) 
+
+Those were: 
+
+quarter rest 
+0000
+
+quarter note 
+1000
+
+two eights 
+1010
+
+dotted eight sixteenth
+1001 
+
+two eighths plus quarter
+1110
+
+quarter plus 2 eighths
+1011
+
+four sixteenths 
+1111
+
+eigth rest, eigth
+0010
+
+//
+ alt algo that is like blocks but with non even numbers of steps per block
+216 ie you might add a 5 block step to a 3 block step etc.
+
+//
+
+Euclidean algo? 
+
+//
+
+Algo that swaps between triplet placements and normal placements
+
+// ALGO-WONK
+
+32 step arr, loops at 32
+
+places beats by skipping steps 
+ie skip some constrained random number of steps, place a 1, skip again
+until the index is greater than 31
+
+or maybe
+
+theres a value thats percent to add a step 
+
+every step walk trough the array 
+
+if you do place a step, the random % chance goes way down 
+then for every step passed that you don't place a step, add a little to the % to step 
+
+that way you're less likely to get clumped steps, but it's not impossible
+
+//
+
+// ALGO-WONK alt 
+
+32 step pattern 
+then place notes skipping 2 notes at a time (effectively a 16 step pattern, could also skip 4 and make an 8 step pattern)  
+
+then go through, and move some of the placed steps one index forward or back 
+
+var called steps to wonk, then randomly select steps, and if its a 1, wonk it and keep going until you hit max steps to wonk
+
+// ALGO arrange 
+
+4/4 time
+
+plays the pattern 3 times, then a flippy/altered variation
+through 4 times (if normal=n and fill=f, nnnf nnnf nnnf nnnf - with 4 diff fills) 
+one fill is flipped
+one fill is everything moved over 1 beat etc 
+
+could be a whole algorithm based on playing something, then playing the same thing beat shifted some number 
+like 
+
+normal X2
+shifted -1 beat X2
+normal X2
+shifted +2 beat X2 
+
+these ones prob work better as 4/4 patterns
+
+more readable
+
+//
+
+Algo phase 
+
+a sparse algo (non usual beat timing thing) 
+but where the length of the sequence is always 1 step more or less than a normal amount ie 
+15 beats, 31 beats, 16 beats, 33 beats - etc. 
+
+// ALGO binary 
+
+algo based on complex number skipping binary behavior like the following idea from the xaos binary stuff
+
+ie skipping by more than +=1 for complex binary outputs
+
+"When operating alone, the state of Erfurt changes by 1 at each impulse from the clock inputs, so that it counts from 0 to 255 in a cycle (modulo 256). This yields the signal frequency divided by 2, 4, 8, etc. up to 128, available at individual bit outputs. Depending on which clock input is used, the clock patterns correspond to the so called mathematical or musical divisions of the rhythm.
+
+With two different clocks patched to the inputs, the counter alternately increases and decreases its state, and ultimately it counts with a rate proportional to the frequency difference between the clocks. A third clock patched to the Reset input may be used to shorten the sequence thus making the cycle incomplete for even more rhythmic diversity.
+
+When there is a Leibniz data source connected at the back (even as simple as Lipsk), the state increases or decreases in larger steps, depending on the data present at the Leibniz bus (eg. the value programmed by the Lipsk buttons). The counter overflows quicker, and produces more complex patterns."
+
+//
+
+sloppy noppy 
+
+rhythm where part/half of it is pushed forward a 32nd note, the other part is straight
+
+tried it with some jd beck rhythms and it sounded sick
+
+//Halves
+
+algorithm that does something with halves ie 
+splitting the rhythm in 2, then playing the first half once (2nd half rests) and then playing the first half rests, and the 2nd half 
+
+ie
+pattern 1, rests 
+rests, pattern 2
+
+or probably better with repeats
+
+pattern 1, rests 
+pattern 1, rests 
+rests, pattern 2
+rests, pattern 2
+
+//ALGO phase
+
+algo based on my tests where I detect clock input with a delay, so that it catches only some clock in pulses at weird times/intervals 
+
+//
+
+Plays itself 
+Then repeats the second half 
+Then starts over 
+
+Or repeats not exactly the second half but the last quarter, last third etc
+
+//
+
+Fast tick sparse algo that plays with doing pattern repeats with some notes shifted one step
+
+//
+
+Algo like kick in the internet “something missing” 
+
+Ie play something 3 times, play a variation the 4th time 
+
+Sounds kind double timed/skewed last time
+
+Thing its 32 reso 
+
+//
+
+Double dots algo 
+
+10000001
+Kind of stuff 
+Like 
+10011001 
+
+But stretched out 
+Like Rossini double dots 

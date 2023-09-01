@@ -1,0 +1,46 @@
+semitransparent grey panel (transparent black - glossy) 
+made to look like a fictional interfact instrument 
+
+text and stuff is white or silver 
+
+this would look way better with like all white LEDS, or some other color maybe purple 
+
+if that was the case there would need to be a third led row that indicates where you are in the current stage
+
+or maybe one RGB LED that peeks out that is a color which shows what stage you're in 
+
+like the 'stage indicator' led
+
+I think white smd leds are probably cheaper and easier than the RGB strips I'm using currently
+
+//
+
+pulsing leds at different rates etc. for cool effects
+
+//
+
+naming the io something funny? like names of people or somethign? 
+or maybe thats annoying like renaming board game mechanics when they're not actually new concepts 
+ie input and output should only be called something else if they function dif from normally
+could be good to call clock somethign else because it doens't function as a straight normal clock
+
+//
+
+using very small LEDS but ones that stick out a bit, like in a hole in the panel 
+maybe purple and white or something
+with the one RGB status LED
+although sometimes the small RGB LEDS are pretty hard to read 
+
+//
+
+making the majority of the panel silver (exposed metal layer from pcb) 
+with small black bits (silver and white could also be cool but hard to see) 
+
+like the silver moon 
+
+//
+
+try different shaped led pinholes/covers to see if it can illuminate in that shape 
+like a star maybe 
+
+mabye the panel fr4 cut outs for the leds could be stars too 

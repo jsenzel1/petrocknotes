@@ -1,0 +1,90 @@
+
+overall changes in cyclic variables, over the course of multiple cycles or after completing one massive meta cycle (something cycling out of phase with the meta cycles - although this might be wholly unreadable and impractical)
+
+this could work with the algo changing weekly - ie algo changes weekly, something else changes per moon cycle
+
+
+//
+
+times to modulate by 
+changes over the course of 7 days
+changes over the course of 4 weeks in a moon cycle
+changes over the course of moon cycles (big phase) 
+
+//
+
+something pretty noticeable should happen over the course of a week
+something that modifies that noticeable thing happens over the moon cycle
+the thing changes over multiple moon cycles                                                             
+
+could do that rhythm 1 changes params and algos per week
+rhythm 2 changes per lunar cycle:w
+
+
+days of the week have specific max step lengths (maybe with slight +/- jitter)
+
+reich algo could have the same patter for a whole week with higher max reset vals each day - then an even more meta param for the lunar cycle
+for reich algo - stop thinking of it as actual reich, better to use shorter max lengths (under 8 steps) and think of it as one choerent longer rhythm rather than a whole phrase - the whole phrase turns it from an interesting building block to jump off of, into a pre composed phrase/sectional sized thing that is too prescribed feeling
+
+ways to modulate 
+
+density of steps/step chance
+
+max step length 
+
+placement of patterns ie always places sets of 2 steps with at least one space before the next set (or not) (with half the density presumably) 
+
+steps placed euclidean 
+
+perlin noise distribution * density (somehow) 
+
+using module division rather than set pattern? is this a set pattern? 
+
+module in greek
+
+// 
+
+special days ie 
+sunday is a day of rest somehow 
+full moons are important - if you use it on a full moon acts differently maybe repeats inputs back more than once like a beat repeat or something 
+
+communicating this - 'days till full' 
+
+or 'event' section that only says something if today is a special day 
+'Jonah's birthday' 
+
+these are one off algorithms that only happen on certain times 
+
+maybe super long rhythm patterns ie like 96 beats or something
+
+applying more or less slop (delay) to notes  
+module is drunk at certain times 
+
+module rolls randomly in different ways - and different bias between the two outputs (reread the marbles manual for ideas)
+
+--
+
+lunar cycle changes the flavor of modulation - day of the week cycle changes intensity? or other way around - this way you get different match ups because days of the week and lunar phase are out of phase 
+
+//
+
+random variable that decides percentage chance that a random bit (0/1) will be played rather than the bit at current time (checks every step) and another random chance that decides whether that bit will overwrite the current bit - slowly the pattern gets repaved 
+
+could even swap between two generated sequences and one slowly and at random intervals writes current step to the step of the other generated rhythm, then when that's finished, it starts writing back to the first pattern
+
+could also have a trig output for when something gets written
+
+//
+
+if you use it too much it gets sloppy/gets sloppy at certain times 
+
+//
+
+cv outputs forcurrent position in loop (maybe 2, one for each pattern)
+
+// 
+
+maybe thinking of it as a sort of 3 stage thing 
+there's pre full moon, full moon, and post full moon 
+
+and those three are meaningfully different, with smaller changes during the in between phases

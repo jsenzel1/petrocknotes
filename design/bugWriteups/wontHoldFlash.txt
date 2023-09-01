@@ -1,0 +1,1 @@
+check if you're actually using xosc startup delay! if you're using an example it probably doesn't have it. If you're using other code make it huge and see if it gets caught when using make as a fatal error, if it doesnt, the board isn't actually seeing/using the variable

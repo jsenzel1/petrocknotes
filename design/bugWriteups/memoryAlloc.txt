@@ -1,0 +1,36 @@
+SOLVED
+
+Solution: use pointers to allocate var names to memory address, then declare only the ones needed in active code, others don't get loaded into ram
+
+// 
+
+
+I have 2 classes, class A and class B
+
+think of them as 2 different modes the program can operate in
+
+each time the program starts, I want to choose either class A or class B
+whichever I use, the other will never need to be used while the program is running
+
+So both class A and B will exist in memory storage, but I only ever want to Load one of them into Dynamic Memory
+class A and class B both take up ~80% of my dynamic memory, but only ~5% of static memory (let's say)
+So I can't load both at once, and I don't want or need to, because once the program is running I only need to be in Mode A or Mode B
+
+My issue is that when I declare Class A, and Class B as variables, they both immediately get loaded into dynamic memory and I run out of memory 
+
+I tried using preprocessor code to conditionally declare 1 variable or the other, but then later in my code when I reference the unused class, I get compiler errors, IE 
+
+if(inModeA)
+{
+
+	ClassA.run();
+
+} else if (inModeB) {
+
+	ClassB.run();
+
+}
+
+ERROR: ClassB doesn't exist
+
+(of course, the line of code referencing classB would never actually be run in use because it would be in mode A, but the compiler doesn't like non existent classes)

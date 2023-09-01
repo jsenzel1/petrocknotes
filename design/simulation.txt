@@ -1,0 +1,7 @@
+To test long term emergence - stepping through a year of daily generated patterns 
+writing those to a file 
+
+checking for duplicated, fully filled or fully empty patterns etc
+(fully filled or empty can be populated with a single random step but probably better if that's not happening super often) 
+
+

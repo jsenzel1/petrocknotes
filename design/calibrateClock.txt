@@ -1,0 +1,29 @@
+clock calibration 
+
+simply use the code from the set sketch that grabs time from the computer (assuming that you don't need to run IDE to use this) 
+
+either have it run on startup to check if the answer isn't null and if it isn't, set (some sort of try catch for that) 
+
+or have a button that you hold to go into 'clock setting' mode 
+
+in the manual - if the day is wrong, you can do that but keep in mind the drift of when a day starts - ie 12am, 2am, 3am, etc. 
+
+////
+
+have a switch you can switch, then a website 
+you turn on the switch before turning on the module 
+then connect a eurorack cable to your computer 
+the site communicates the current time over serial 
+or just over a series of blips that communicate the time 
+
+could do something simple like giving year, date, hour
+each one expressed as a series of short blips, with a long one in between
+
+real easiest is prob setting up a long var that is seconds since 2000 as a binary number 
+then the thing communicates binary - maybe with a long pulse in between
+In calibration mode an LED lights up when its calibrated
+
+Note - this setup would also forgoe the need for a USB port, so things could be SMD
+
+//
+

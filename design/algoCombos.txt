@@ -1,0 +1,1 @@
+How will algos be put together? 2 copies of the same alg seems not as great as 2 different algos? maybe this is a question for when I can experiment with seperate clocks

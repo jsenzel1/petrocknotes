@@ -1,0 +1,118 @@
+clock scrambling seems to be a problem on the read end of things not the write end
+because sometimes it works and reads which implies the data is stored in there just not always accessed correctly 
+
+so probably sometimes its getting read too early, things arent loaded correctly - some sort of async problem 
+
+probably the same reason why sometimes it doesn't turn on
+
+the order of operations isn't dictated well, so sometimes the wrong code gets reached at the wrong time 
+
+//
+
+seems like old garbage vals of the gpio aren't being reset, aren't being correctly initialized or something 
+
+// 
+
+testing
+
+I know that it didn't used to happen 
+likely either a hardware or software bug
+use rubber ducky debuggings to describe how someone else might solve the bug 
+
+I should use the basically unused module with no jacks 
+if I flash that and it has the problem, it's something to do with the software 
+
+but I tried flashing blink on to the current module and that still had the issue, so that suggests that its not a software problem - although it doesn't garuntee it - could be a problem with something that I set in long term variables that's not getting initialized properly, some garbage variables around, etc. 
+
+carefully examine the hardware and do some multlimeter tests when it fails to boot `
+
+//
+
+test using #define params, deleting the define, reuploading code, then reading the define to see if the value remains 
+
+then uploading the empty flash binary and seeing if it remains in that
+
+//
+
+tried nuking flash 
+tried uploading to jacks board and paper board 
+both failed the restart test 
+
+uploaded to nojacks and that worked fine
+
+//
+
+reads correctly when I use the usb wait thing, when I don't, it reads scrambled
+
+so when I don't wait for usb it doesn't work. maybe I just need a little sleep code in there
+
+but weirdly now when I start w usb plugged in sometimes I get the fatal bug with status leds on 
+
+could be also a problem with reading the seconds/minutes in with the year or something switched around
+
+another huge thing could be just that I'm not correctly rebuilding like i need to be trashing the whole build sometimes - when? check sdk?
+
+also without while tud cuc sometimes I think the usb just never connects 
+
+try platformio?
+
+does the previous test theoretically proving it was hardware imply that its something in the eurocase fucking it up permanently? cause only those 2 modules had been through the euro case - maybe it was an imperfect experiment where I wasn't accounting for some things
+
+try different usb cable too
+
+but the usb cable would never account for it not turning on sometimes in the case
+
+// 
+
+It works, including retaining seconds, if I km and mk from the terminal - kind of implies the hardware is fine, or there's some sort of reset that happens when you initialize the module, that doesn't happen when you simply turn it on again
+OR 
+something is happening in the power on stage that scrambles the rtc memory like a voltage spike or something
+
+yes this seems to be the case - it seems like the act of turning off and then on the 12v/main power, that causes the rtc info to be scrambled - some sort of spike/thing causing this 
+
+should check the rtc pins and see if they're seeing like a huge spike or something
+
+doesn't seem like there's a spike
+
+is it possible that this problem has always existed and i just never noticed it because I was never turning off and on the board without using km/mk /testing it on its own?
+
+//
+
+Tried putting 5 second delay on the first line of the pico-example test, didn't help (implying the power supply itself isn't the issue, and neither is needing to wait for internal components to stabilize)
+
+//
+
+essentially whats almost certainly happening is that removing and reproviding main power to the board causes the rtc to be scrambled. Interestingly - if you do it super quickly it doesn't get scrambled, implying maybe that there is some capacitor that is holding a bit of charge and allowing things to function correctly for a second
+
+//
+
+although is there some possiblity that the read is messing it up? 
+trying the following 
+- set correct time
+comment out both the reading, and the setting code 
+power cycle several times 
+
+leave power on, and read 
+should read wrong, if it reads write, reading while off of USB is causing a faulty write
+
+did that, reads wrong, seems like a physical issue still 
+(because we know that without scramble conditions, write doesn't scramble
+
+could it possibly be though that there is in fact an issue with read, but that is only present when it has to read on startup - ie the rtc has to be instructed to wait to be read for some delay etc.
+
+//
+
+but how would i have never noticied it before? because although I was often km and mking, I was also often restarting the module, which should have corrupted the stored data for the rtc - I wasn't resseting the clock constantly or anything like that
+
+//
+
+could be that the loss of power is what scrambles data, or when it tries to perform battery switch over
+
+//
+
+TEST WITH HOMEBREW POWER SUPPLYA
+(tested, same problem)
+
+//
+
+

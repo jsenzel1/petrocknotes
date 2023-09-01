@@ -1,0 +1,7 @@
+date at the top, line for mood color 
+
+moon phases on right hand side, with checkboxes so you check which one it was
+
+lined notes section in the middle
+
+maybe a rating from 1-5 or a smiley face chart or something with different emotions including annoyed etc.

@@ -1,0 +1,118 @@
+Jun 17 
+
+you have an abstract space that has so many paremeters (axis) 
+that your black box can output - you can count the number of things (good to know) 
+
+given that you have these things - what subset of these things are recognizably unique 
+
+similarity metrics - given 2 beats how similar are they? 
+
+how distiguishable are your beat patterns? 
+
+then you need to answer the question of scale 
+
+typically noise functions have a domain in which they don't repeat 
+perlin noise endlessly good 
+
+at very broad level of scale, things change very slowly 
+the upside is it feels like you're going on this great journey - under saturation 
+
+you don't want to give away everything your algorithm can do at once 
+
+but also the downside of doing this is people might not see the changes because they're too slowly 
+
+a single beat changes in the beat every day 
+
+time step coherency 
+
+uniform distribution of random junk is boring
+day to day level you want some sort of coherency between step to step 
+
+there's a gradient 
+
+with white noise you quickly saturate the whole range 
+
+//
+
+whenever I call rand try using perlin noise instead
+
+//
+MORE NOTES JAN 30
+
+I had an under saturation problem
+ultra simply/nonexistent rhythms 
+
+//
+
+how many rhythms are there that satisfy my criteria
+my hueristic/fitness function (is it interesting enough) 
+the hueristic can be my opinion, or a piece of code, etc.
+
+some algorithms generate everything under the sun, then evaluate with the fitness function - does it fit the constraints
+
+[splitting into seperate beat 'words' / 'phrases' and stringing them together/arranging and rearranging them]
+
+how many unique and 'interesting' (passes fitness test) rhythms can be generated 
+how many unique and 'interesting' rhythm generation engines can I think of
+
+then I can think about how to spread them across a period of time 
+
+//
+
+i need 8 different generator presets that can convey a gradient of simple to complex 
+
+//
+
+maybe algo sparse is part of algo plain - or algo blocks
+
+more diversity within each moon cycle
+
+//
+
+epochs could be oriented with the seasons maybe
+
+//
+
+the peaks should be more overly complex rather than the valleys being underly complex
+
+//
+
+the moon seemingly has one parameter (how full it is) 
+but there are additional parameters 
+ie whether or its before the full moon 
+think of it as 
+-1, to 0, to 1
+so the sign of the number can be a parameter 
+
+there's one input parameter, and its a signed value with a magnitude 
+
+there's the sign, 
+there's the magnitude 
+
+i could also include the day of the week 
+
+//
+
+if you have a super high frequency signal, people will see it as uniform noise 
+
+if the user looks at the output from day number n, and then they look at the output from day n+1, and n+2 is completely different from n+1, it's going to seem like random noise. So the problem I need to solve is making the difference between day to day small enough. (phase to phase)
+they're reading the frequency change and seeing it change over time
+
+in terms of week to week, if it gets more complicated, then simpler, etc. its going to be more confusing. The week to week parameters match the sign of the input parameter
+
+// string replacement 
+you generate something, and then you mutate one one in it
+you are trying to show connectivity, continuity between steps 
+
+seeing the interpolation between the steps
+could have 2 rhythm end points and interpolate between them over time
+
+how to write my algorithms/constraints such that it satisfies continuity between steps - there's a gradient
+
+I can also take the derivate of the function (the change over time)
+
+//
+
+whether or not the two rhythms are the same thing
+whether or not the two rhythms are the same length
+

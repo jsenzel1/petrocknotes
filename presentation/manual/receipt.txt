@@ -1,0 +1,30 @@
+Modular manual/ad cost breakdown
+
+Including in the manual/box/ a card 
+
+This module sold at cost or
+This module sold at cost +$10 
+
+Then itemized list of materials like 
+
+Custom circuit board - $2 
+Audio jacks - .35
+
+Etc 
+
+Or maybe just 
+
+Electronics components 
+
+$7
+
+But i like the breakdown of each component because it really lets people see where the cost is coming from 
+
+Also 
+
+Circuit board design salary
+Roughly $2 
+Or whatever
+
+Thats harder to actually calculate
+

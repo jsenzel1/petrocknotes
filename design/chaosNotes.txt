@@ -1,0 +1,74 @@
+Chaos 
+
+3 body problem shows basic novel chaos 
+
+chaos is a system/equation that isn't solveable by calculating for positions at a given point 
+
+you can simulate it by moving step wise and calculating instant to instant, but not accurately calculate broad scope solution - this is because of exponential growth of initial 'error' in the equation/system 
+
+[perhaps initial introduction of of initial compounding error is a key step here ... in other words, emergence]
+
+lots of things in the natural world/around are chaotic 
+
+//
+
+CHAOS vs RANDOM 
+
+a chaotic process is: 
+*predictable during the short term* 
+
+the next step can be determined from the current step 
+(randomness is not predictable during the short term)
+
+"randomness and chaos are two different things, but they have a lot in common"
+
+how do we tell the difference between randomness and chaos 
+
+Is the external exciting force regular? Chaos typically has associated with it a parameter that you can adjust, where some values produce regular behavior, and some values produce chaotic behavior 
+
+Chaotic systems generally have some rules to them - some bounds
+
+if we look at specific points ie in the 2 pendulum problem, the location of the inner pendulum only at the peak of the outer pendulum, you get a more specific pattern graphed within the bounds, making that strange swirly shape
+
+this is called a strange attractor
+
+that shape is a fractal (the geometric expression of chaos)
+
+it's a self repeating shape that makes itself as you zoom in 
+
+nature is also full of objects that have fractal characteristics
+
+looking for fractals is a good way to find chaotic systems vs random systems (random systems won't be a fractal)
+
+//
+
+the fractal pattern over time moves and then also repeats itself (returns to center)
+[not sure if repeats to be actually the same]
+
+self similarity comes from a sort of structural folding - stretching and folding of the space makes it a fractal
+
+//
+
+faucet example
+
+starts out with small period drips (period is amount of time before a pattern repeats) 
+
+as this period doubles and doubles, the period gets so large that you essentially lose the construct of periodicity 
+
+//
+
+chaotic electrical circuits
+
+there are very simple chaotic electrical circuits 
+
+most audio feedback isn't chaotic - it's a periodic linear oscillation (because the amp is set up to be linear) 
+
+introduction of a nonlinear component can create chaos (something as simple as a diode) 
+
+//
+
+for eurorack - creating chaos by introducing that compounding variable drift maybe even before the 'start' date of the system ie using past time variables and extrapolating them out to present, introducing exponential drift
+
+
+
+

@@ -1,0 +1,1 @@
+seems like it may actually be isolated to the hot glue board? I seem to remember it also happening on the grey tape board, but it actually seems to be working just fine

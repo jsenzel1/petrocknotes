@@ -1,0 +1,7 @@
+making more variations of algoplain
+one where there is one length number per cycle
+patterns always the same length 
+
+etc. 
+
+^^thats def more readable at least

@@ -1,0 +1,106 @@
+What is/are the module(s) you want to focus on in this interview?
+*
+Pet Rock
+
+What brought you into Euroracks?
+*
+For me it was a very weird all-in, all at once situation - I have known about Eurorack for a super long time and have done some virtual modular stuff - but I just had the idea to make a module, and then went in on buying my first rack all at once, and also starting the development of the module (it was also the first time I could really afford eurorack) 
+
+How did Eurorack wreck you as a manufacturer?
+*
+
+dear lord. Doing hardware and software together is so rewarding and also sucks so hard sometimes. I've had countless moments where I thought I've hit unsurmountable problems, which happens in all big technical projects. Recently though it was having to desolder and flip 50 leds by hand, each about the size of a small sesame seed, without touching the others next to it, because of an error at the circuit board factory. Doing it solo just means there's so many different balls in the air, so many hats to wear and skills to learn (but that's also the fun part)
+
+How did you survive the wreck and thrive?
+*
+
+sometimes you have to go home and not have the problem solved, come back and look at it again, be frustrated, try 5 more ideas, come back again, etc. before you find a solution. The only thing that helps is embracing the insanity and just letting it wash over you beautifully. The tiny leds were actually easier than I thought, by the end I could do one in a minute (the first one took over an hour of practicing before I even attempted it). Surviving the misery of technical issues is purely a matter of somehow keeping even keeled, even in horrible situations.
+
+What is your company's mission? Tell us why the readers should care about your company and products.
+*
+
+I want to create truly experimental modules, that are also sold at the cost of production, acting more like a foundation or organization than a company (I won't make any money from this module). I think there are people doing crazy experimental modules, and there are people doing affordability, but there aren't really many that do both, especially in the world of *assembled* eurorack. DIY is amazing but I just don't think it's accessible to people until they've already really dived into Eurorack. I want to make modules because I want to, not for any other reason. These ideas have culminated in my "new eurorack manifesto": 
+
+Eurorack is a luxury brand
+My friends can’t afford it, I can’t suggest they try it
+
+designing a module means doing business, It doesn’t have to be that way
+Eurorack for Eurorack’s sake
+
+Non Profit, In the same way having a garden is non profit
+Outsider design is better Outsider ideas are better
+
+Open source, Open trade secrets.
+Cannibal Design, Frankenstein Design.
+
+What's so fresh/new/unique about your module(s)? Tell us more about what it/they bring(s) and why should people care. It's the time to make your it/them shine. Keep it easy to understand.
+*
+
+Pet Rock is a module about time. It's the slowest modulating module ever created as far as I know, maybe the slowest modulating piece of music Tech. It's a rhythm generator, which generates only 1 new rhythm every day, slowly changing parameters over time, cycling through 4 different generation algorithms over the course of 4 months. Each algorithm lasts one real life moon cycle, and within that algorithm the current moon cycle will influence the generation of the rhythm. It's not that I'm going for a direct translation between the moon cycle and the rhythm, more that I want to tie the module to a real life phenomenon, and to keep the user looking out for the next algorithm, following the days, counting down until the new moon, and they can go outside and see for themselves that it really is a new moon when it is. I want to start making music technology that thinks for itself in a sense, that acts more as a robot collaborator, and that changes while you are away from it, that isn't static, isn't something that you have full control over, that's it's own organism.
+
+Who do you creates modules for?
+*
+
+punks! 
+
+How do you design modules from the functionalities to the interface? Keep it easy to understand.
+*
+My module purposefully has no controls on it, except for 2 clock inputs 2 drive the 2 sections of the rhythm. It really does it's own thing, and you kind of have to mold and shape that thing to fit, and respond to it. It's more of a prompt generator than a tool. Because of this the interface may seem annoyingly opaque at first, but that removal of control is there because it's what I want to explore with this module, what if you were stuck with this rhythm for today, no easy ways out, you just have to explore what you could maybe do with it, how you could fit it in. That's a little puzzle that I personally enjoy when making music.
+
+What are the tools and frameworks you use for manufacturing your modules? Keep it easy to understand.
+*
+I use raspberry pi's rp2040 processor (it's the best because it's made by a foundation, so you know they care less about profit and more about doing things well!). I design hardware with kiCad (free and open source). I program in the text editor Vim, in the terminal, like a 75 year old (this is the most relaxing, zen, flow state way to program, most modern code editors fail crucially at this aspect, which I value above all else). I get circuit boards assembled by circuit board mega giant "JLCPCB" in China, for which there is almost no information about online, which slightly concerns me.  
+
+What are the biggest challenges when manufacturing modules?
+*
+
+compared to other mediums, physical hardware just has an incredibly slow lag time. If you mess something up in an export in photoshop for example, you just go back and fix the file and re export it. If you mess up hardware, it takes at least 2 weeks to get it usually, then you see the mistake, which may have cost you hundreds of dollars, and try to figure out how to iterate. And there's so many different moving parts, anything can go wrong for any reason. 
+
+How did you overcome these challenges?
+*
+
+mostly by relying on different people around me that know much more about pcb design than I do, and also simply failing, trying lots of things, different tests, being thorough looking for hardware bugs like a detective. Most of what I learned about all of this process is found in the book "zen and the art of motorcycle maintenance" which is to say again that it's only matter of attitude - if you want the module to be finished enough, it will eventually be finished - the true currency is your attention and you willingness to keep going, which sometimes needs to be replenished by doing stupid things that have nothing to do with work, and stepping away from everything. 
+
+
+What is your best module from your company and why?
+*
+
+this is my first module
+
+Which of your company's modules is the most successful and why?
+*
+
+this is my first module
+
+Where's your most important market and why?
+*
+Where can we find your products? Don't forget, my audience comes mostly from North America although I have a significant subscribers across Europe. South Americans are getting more and more excited about rakt as well. 
+*
+
+petrock.site
+
+Perhaps you create other products such as cases, faceplates, pedals, plugins, controllers, etc. If that's the case, tell the readers more about those other products.
+*
+How did the world situation affect your company since 2020 and how's your business doing today?
+*
+Do you have time to make music?
+*
+
+I am a composer and sound designer first! (I recently did the music and sound for the game "Inscryption") the rare, "makes money from the music, electrical engineering is my passionate side gig" But I really love writing music and designing sound and that is my forte in life.
+
+Who is your number one influence in regards to your profession?
+*
+
+I think Nonlinear Circuits is pretty awesome - I like the idea that he has a sort of central theme of the modules around chaos, and embodies the more diy side of the scene. I like that he seems to care about theory and the more conceptual side of design. Also though my friends like AC Gaudette who is a game designer - I find more inspiration outside of the the eurorack scene than in it to be honest - another big influence in everything I do is Ian Cheng. 
+
+How can people find you? Share your social media links
+*
+
+twitter @jonahsenzel
+site jonahsenzel.com
+instagram @jewkulele
+
+Share with me the best showcase video of your product(s) or company (give me an URL)
+*
+Is there anything you want to highlight or are there catch phrases I can use that will help you position your product(s)/brand better in front of the readers and viewers?
+

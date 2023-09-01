@@ -1,0 +1,1 @@
+a reset indicator that uses a different color LED in the status LED to show when the pattern loops/resets fully. Could also try doing some sort of flash pattern but maybe that will just be confusing

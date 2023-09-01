@@ -1,0 +1,1 @@
+generic rtc based module with lots of different firmware etc

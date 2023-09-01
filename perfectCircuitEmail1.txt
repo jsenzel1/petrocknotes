@@ -1,0 +1,18 @@
+hi! 
+
+I'm Jonah Senzel and I'm working on Eurorack Module called Pet Rock That I'm launching at Knobconn 2023
+
+This module is weird, it's a rhythm generator with a mind of its own (it's also sold at cost of production - more on that later)
+
+the module constantly keeps track of real time, and uses this on 3 different levels
+
+1. Every night at midnight, it generates one new rhythm, which is available for 24 hours only, these rhythms never repeat, and every copy of the module has the same rhythm every day (for slight flexibility, each rhythm is a composite of 2 independantly clockable A and B rhythms)
+
+2. The module keeps track of the real moon phase, and the way the rythms are generated is influenced by the current moon phase 
+
+3. At the beginning of each moon cycle, the overall algorithm that is used to generate the rhythm is swapped for a different one, there are 4 pre written algorithms, meaning they cycle over the course of 4 months - making it the slowest modulating Eurorack module ever 
+
+I'm wondering if you would be interested in buying some for distribution - I'm thinking a small number to start (maybe 10-20?) just to get it on the site as a place to point people towards to buy it, and then see how things go from there 
+
+This module is also sold *At Cost* meaning I'm selling it for the price of production, which is about $20 right now. I'm doing this because I want to see Eurorack become a more accessible format. I understand that there will be distributor fees - I have literally no margin (the distributor fees will simply become part of the price) so I'm hoping that we could keep them low - maybe selling them at $20 per unit and retailing at $29? (buying at 70% retail cost).
+

@@ -1,0 +1,20 @@
+Some drifting sync stuff (offsets) in sync w drifting celestial bodies
+
+//
+
+Set length for each moon cycle
+Or set length between 1 or 2 values
+Ie eitherr 7 or 8 
+
+Or set length between 3 values 
+Waxing gib 6 7 8 
+Crescent 9 10 11 
+
+Etc
+
+Choose a method test through three of each from each phase 
+
+Using seed +1,2,3
+And setting cycle
+
+Don’t forget about day of the week choosing randomness value etc.

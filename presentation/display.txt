@@ -1,0 +1,59 @@
+Using pillbox m t w th f s s 
+LEDS
+
+you could see all the positions of the weights etc
+one for the year one for the months one for the days 
+
+visual clock over time 
+
+show lunar cycle moon shape 
+expressive but non readable 
+
+
+picture on the front that's a guide that you reference manually for lunar cycle 
+
+showing the earth with the moon rotating around it then an inset map of the moon phase - showing time of day on the earth, and the earth going around the sun 
+
+//
+
+rgb LED 
+red, orange, yellow, green, blue, purple, white (full) for all the stages of the moon - maybe new moon is no light 
+could also do 8 (or 7 not counting new mooon?) LEDs with transluscent panel
+
+wheel with moon cycles on it in a window (w led behind?) 
+
+// two collums of LEDS, one for days of the week, other for moon cycles (7 and 8 respectively)
+(this is in the empty space above/below the 4 inputs (2 clocks, 2 outputs)
+the moon cycles and days would get underlit by leds (they would be transluscent etchings in a plastic panel 
+maybe 2 different colors of LED - moon phases should def be white 
+
+^this would imply that those 2 measurements are by far and away the 2 most important on the module
+(what does that mean for design?)
+
+rgb LEDs could note the passage of time IE the moon is white, then red, then green etc. - maybe just from white to red is cool - noting a long sequence like the passage of a calendar year or many moon cycles etc. "many moons ago" 
+
+maye one side is moon sequence, other side is multifunctional ie theres lots of different categories and the rgb shows the position of each - or blinking? 
+
+weekday could change color when you haven't used today's rhythm yet - maybe something blinks
+
+colors for long term usage go roygbiv in order
+
+// Bottom line is OLED is the best way to communicate information about time things happening over long periods - rgb LEDs good too, but more opaque (maybe that's cool/fine) - changing colors over time could be nice 
+
+OLEd different status modes - button to switch between them and check different stats
+
+we don't care about or even want to show lots of info/tell exactly what the module is doing - but oled allows to let the player know that there are things changing on longer timescales - a sort of omg moment of like - oh that little graphic in the corner isn't static forever, it's changing over time - gimmick addition could be the magnifying glass, connected somewhere on the board to a little anchor or zippy pull out thing
+
+the necessary time scales to know are
+things change every day 
+things change every moon cycle
+things change from moon cycle to moon cycle 
+
+led strips communicate that, oled communicates that, analog stuff struggles
+
+if I could find goddamn analog counters like on an odometer that could be awesome to have a bunch of little two digit odometers all in a row top to bottom with little symbols next to each one and they are moving slowly and out of phase with each other - would have to drive like 5 motors though - maybe just 5 pwm pins and who friekin cares
+
+best case scenario is no screens, no LEDs, all 3 levels of information communicated
+
+
+All of the analog options are pretty dope but probably don't communicate enough information ever - 

@@ -1,0 +1,30 @@
+each moon phase has a base length that's sequential/simple ie 
+
+7
+8
+9
+10
+12
+13
+14
+15
+
+
+or there are authored pairings for each phase 
+
+7/11
+8/15
+12/13 same rhythm w/1 rest
+
+16/16 same rhythm
+
+9/10  same rhythm w/1 rest
+5/10
+6/18
+
+
+maybe reich should always have same length 
+bc payoff is still longer 
+same exact rhythm on full
+cycle determines set length
+

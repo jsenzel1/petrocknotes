@@ -1,0 +1,4 @@
+so far not supported by arduino code is 
+
+obviously anything EEPROM (bc it doesn't exist)
+the rtc stuff

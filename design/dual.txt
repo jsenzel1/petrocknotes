@@ -1,0 +1,2 @@
+Top is normalized length
+Bottom isnt 

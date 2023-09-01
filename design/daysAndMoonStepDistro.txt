@@ -1,0 +1,7 @@
+rather than 50% step chance 
+
+distribute a fixed amount of 1s into the sequence 
+
+maybe that's whats determined by day of week 
+
+at least for some sequences

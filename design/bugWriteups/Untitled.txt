@@ -1,0 +1,22 @@
+
+Maybe just adding a sleep function in between some stuff like initialization stuff and clock reading etc
+
+Could cuc usb be taking place of some other serial ready function/var? 
+
+Maybe check the pcf8523 example more for serial stuff
+
+Although didnt have issues for weeks so probably issue is something i added rather than not having boilerplate 
+
+And check on 2 modules at once
+
+Mk probably worked because there was some sort of extra usb preparation
+
+Could be race conditions that are now different because i added more code ie calculating the moon cycle with a different algo or something
+
+Still doesnt explain the sandbox problem
+
+There needs to be a replacement line for cuc usb connected that waits for internal serial stuff or something 
+
+Maybe need to not stdio init all
+
+Esp cause in the sandbox problem 

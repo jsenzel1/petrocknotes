@@ -1,0 +1,24 @@
+NC = non constrained = non normal step lengths
+
+Algo Basic 
+
+Algo Reich
+
+Algo Sparse
+
+Algo Basic NC 
+
+Algo Paintover 
+
+Algo Sparse NC
+
+//
+
+Algo Wonk 
+
+//not done
+Algo arrange (/fills) 
+Algo Binary complex 
+Algo culture rework/mother rhythms etc.
+
+

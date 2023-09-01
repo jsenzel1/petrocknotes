@@ -1,0 +1,5 @@
+vars only have 100k writes - each - so maybe it's ok if some become unreliable
+
+only writing when you reach a milestone local variable - ie only write every 100 triggers or 500, so there's way fewer writes
+
+probably shouldn't worry about eeprom right now anyway

@@ -1,0 +1,6 @@
+why at cost? 
+
+producing this module at cost is sort of my way of putting a little question mark around eurorack, asking something about how and why things cost what they do. When a single module costs $600 what does that mean for a community? How does that define who the scene is made up of, what the surrounding culture of the tools are? More importantly, how does that define the culture of Eurorack as a whole? The cost of something, is a *design element*, not a seperate facet of a product aside from design. Visual design, Utility design, Accesibility design, and Economic design, that is the design of how and why something is priced the way it is. 
+
+My first inkling that Eurorack wasn't exactly what It was puported to be, was watching hagiwo's DIY eurorack builds on youtube, which, despite being complex and fully featured, are nearly all between $5-10 for the complete build.
+

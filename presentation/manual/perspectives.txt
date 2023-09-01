@@ -1,0 +1,18 @@
+The manual is like 6 different ways to explain the same thing
+
+Ie some are super straight forward and technical, some are simple
+And conversational, some are eccentric and esoteric 
+
+Like a normal version, an eli5 version, etc
+
+Maybe like the elephant and blind monks fable/referencing that 
+
+Headings as
+
+What is this module? According to the pragmatist 
+
+Or 
+
+According to the musician 
+According to the thoerist
+Etc

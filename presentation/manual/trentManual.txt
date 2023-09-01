@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////
+Welcome to the LUNAR SUPRA KRONO, 
+or NED (new every day), haven't finished naming it 
+///////////////////////////////////////////////////
+
+	- - - - - Jonah Senzel - - - - -
+
+First note - there is a small cell battery in the module - don't remove it ever! (please) 
+the module will still be usable and fun but it will scramble the time and date functions so you'll be living in the year 2103 or the year 0001 depending on the randomized value. 
+
+This module keeps track of real time always, the battery should last about 5 years 
+
+This modules provides 2 new clockable rhythms every 24 hours 
+the controls are simple. - the 4 jacks are as follows 
+(top to bottom) : 
+RHYTHM A CLOCK INPUT
+RHYTHM A TRIGGER OUTPUT
+RHYTHM B CLOCK INPUT
+RHYTHM B TRIGGER OUTPUT
+
+Note you can clock with any types of gates/triggers, not just straight bpm (The module is a gate skipper)
+
+the days of the week and moon cycle indicated are real time, and the moon cycle position will effect the current rhythmic generation parameters
+
+note the lights in the prototype are very bleedy and its very hard to tell where its highlighted (will be fixed in production) 
+
+the colored indicator light at the top of the module changes every 29 days or so, introducing a whole new rhythmic generation algorithm. The prototype only uses 2 algorithms production will have probably 6 or 8. 

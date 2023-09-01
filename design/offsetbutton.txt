@@ -1,0 +1,5 @@
+Having 2 outputs on each beat, one normal, 1 with a rotate/offset button 
+
+//
+
+Maybe you get two outputs of a rhythm and one has a hold to block/rotate button - so you can hear the normal and rotated versions over top of each other

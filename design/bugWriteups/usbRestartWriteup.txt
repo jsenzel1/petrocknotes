@@ -1,0 +1,30 @@
+hi, I'm encountering an odd bug while designing a synth sequencer with rp2040 on a custom pcb using c++. The bug is as follows: 
+
+I have a class (in a seperate cpp file) that I want to run, which takes an input pulse through a headphone jack, and returns a rhythm which right now I am testing by blinking an LED in time with the rhythm. The main file has a switch statement which switches between declaring different objects from different classes as the current cpp class to use (it only ever uses one at a time per power cycle). When a class isn't being used its just a pointer. When I make the main class use the rhythm generator, it runs all setup code well and prints corresponding statements telling me that setup is succesful - but after a second,no light blinks, and the device serial over usb communication that I use for the debug console stops responding, and I can't send a kill signal over USB. When I unplug the device, and reupload the code to run a small metronome object which simply blinks the light in correspondance with whatever I send in, it works. Then, and only then, when I unplug the device again, and change it back to using the rhythm generator object, the rhythm generator code runs perfectly. (not changing anything else in the code, just changing an int value that changes which object is loaded in the switch statement at startup). I have reproduced the bug several times. The rhythm generator will not work even if I unplug and replug and reupload the code several times, but if I change it to a test script that uses that LED to blink a test metronome, and Then switch back to the rhythm generator on the next restart, it works perfectly 
+
+
+possible solutions:
+
+//
+
+could it be some sort of concurrency problem? 
+
+ie something gets loaded into memory succesfully in the metronome class (like a global var name, for exmaple the pin names) but not in the algoPlain class. So generally when it looks for that var name it doesn't see it, but if it was previoulsy loaded in the metronome sketch, its still sitting in memory? but why does it when I run it more than once then? would have to be something that sticks around, but gets reset by sitting around for a while?
+
+//
+
+could be much more related to the usb cable not be seated correctly, and the button being plugging in/out interfering with usb stuff somehow or just board stuff in general 
+
+unplugging the cable from the module side and plugging it back in restores the feed
+
+Seems like problem with the usb port
+
+//
+
+ONE SOLUTION 
+
+when it actually crashes, its caused becuase when using rp2040 direct, variables aren't correctly initialized to 0!!!! they are initialized to a crazy massive value, which crashes the program (I think they initialize to overflow??? crazy)
+
+so the sometimes working could be that there were floating values left in memory (bc the variables had the same name) which, when uninitialized, the memory reads as the initializing value, wild bug
+
+

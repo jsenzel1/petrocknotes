@@ -1,0 +1,21 @@
+Using PCB 1 
+
+sometimes the upload just doesn't work 
+usb hangs, km doesnt work, etc, etc
+
+this is using AlgoPlain
+
+BUT
+
+if I kill it with km, 
+run a dummy script (right now in AlgoReich) 
+the dummy script works with the blinking LED 
+
+and then when I upload the original script version
+using the AlgoPlain code
+it works perfectly, LED blinks 
+WTF gives 
+
+odd bug 
+
+thinking it could have something to do with memory etc. 

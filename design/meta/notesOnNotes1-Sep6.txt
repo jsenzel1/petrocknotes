@@ -1,0 +1,72 @@
+for parameters thinking 
+explicitly counting and listing the number of variables I know/can use
+however they get transformed, what are the base things that can effect the algos
+
+^^^"What subset of these things are *recognizably unique*
+
+similarity metrics - how similar are 2 beat[both across instances of 1 algo, and across different algos]
+
+Just reread all of "aarontalks" before writing the input algo conenection mapping stuff
+
+/
+thinking about randomness and chaos 
+the piece of paper fluttering around chaotically, in a pre determined way that we can't calculature because the tiny variable differences compound into extremely complex motion (that's essentially what randomness is) 
+
+thinking of the algos as differet *types* of objects 
+
+as in, if you dropped 100 pieces of paper, you could never accurately predict where any given one would land, but you could see the similarities in the style of each drop, the range of where they could land, their behavior as a group - to the extent that you could easily tell the diference if someone were instead to drop a piece of paper that looked exactly the same but was made of lead - the user understands fundametally what a piece of paper is and how it drops, even if they can't predict where it will land 
+
+also the faucet example from chaos - 
+dripping is period at first, and as knob is turned
+its still in a repeating pattern, but it might take a year for the pattern to repeat, 
+so its essentially chaotic/random
+
+*making an algorithm that starts with a short rhythm, repeats it, and then also alters it - maybe there's only one main array, and it gets inverted after some repeats - ie, repeats the pattern x times, and then on the last repeat 1s are 0s and 0s are 1s, something like that 
+
+// could use 2 7 segment displays to show all info instead of LEDS - just using single segments/combos
+but seems kinda boring tbh
+
+theoretially saying there's 8 algos, 7 days, 8 moon phases 
+thats 448 combos
+
+^pretty good case for authoring values more than 2nd level authoring for algo values
+even with authored values, emergence still very high considered randomness is introduced on top of all that (a good amount of randomness too)
+
+//
+
+need to communicate
+things change every day
+things change every week
+things change over the course of a moon cycle
+
+^^this is already beginning to stretch elevator pitch readability
+
+wonder if there's a cool phase of another planet's position or something
+that happens every 2 weeks
+could be the sweet spot to change algorithm
+
+//
+
+could think of the algos as drummers 
+(9 drummers? each named after a planet? or 8 not including pluto?)
+
+there are 8 drummers, each with their own style 
+every week, the drummer playing changes
+every day, the current drums writes a rhythm for you, that only exists for those 24 hours
+
+the drummers mood is effected by the time of week and time of moon cycle
+
+basics:
+
+the later in the week it is, the longer the rhythm will be
+the closer to a full moon it is, the more notes the rhythm will have 
+
+[one issue might be mixing planet metaphors with the real moon data]
+
+name - rover report 
+
+//
+
+something special should happen when some point in the week aligns with the full moon
+
+//

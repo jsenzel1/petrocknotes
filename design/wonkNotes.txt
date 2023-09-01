@@ -1,0 +1,18 @@
+Rather than just tweak algo throughout moon or week
+Have 2 variations on algo ie standard vs non stardard length for sparse algo
+
+//
+
+Listening to a good rhythm and recreating it (snare patter jd beck WHATUP) then reverse engineering an algorithm that could come up w that rhythm
+
+//
+
+32 steps might actually be wonkier than 64 cause its big enough to be extra wonk but not to be read as a 16th note 
+
+Starting with 8 step xo pattern (with 3 trailing zeroes) then nudging notes around
+
+Could just double number of steps but keep the resolution and methods
+
+//
+
+Pet pebble

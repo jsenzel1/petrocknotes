@@ -1,0 +1,37 @@
+try doing the clock read/write test with the actual example code 
+
+remember, why does it generally work when usb plugged in? usb isn't magic
+
+//
+
+note in the usb example 
+
+if(TARGET tinusb_device)
+
+investigate that line
+
+also disable uart maybe
+
+also order of cmakelists?
+
+//
+
+NOTE from august 7th 
+
+getting this bug again when using eurorack power, didn't i solve it? 
+
+note - when I include usbwait, and plug it into eurorack power, it doesn't scramble anything, implying that if it doesn't reach the mcu, nothing is scrambled (this is good - implies its not a hard path circuitry issue)
+
+but after the rack scrambles it, it still reads scrambled on USB 
+
+as in some cases before, it seems like the *act of reading the clock* scrambles it (but only on eurorack power) not sure if I ended up just ignoring this since it only happened with (one?) module previously now I've seen at least 2 w this bug, scary
+
+//
+
+update:
+
+when it happens only on eurorack power, but usb is fine - that appears to mean there's a problem with the battery
+
+I succesfully replicated the bad behavior using a known(?) bad battery, then used a good one and had no problems - implies that's the issue 
+
+//

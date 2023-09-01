@@ -1,0 +1,25 @@
+structure: 
+
+'wordle' rhythms show, then panel explain, then more rhythms to break up explanations 
+
+wordle demo -> so what goes in to generating this rhythm? mood +cycle, DOW at end just for fun. 
+
+0:38 
+
+you can think of it as playing the role of a sort of collaborator, offering its own prompt that you can respond to and explore 
+
+1:28
+
+all this time-keeping is internally done on the module itself, with a clock that's always running on a reclaceable wristwatch battery that lasts years. You can always easily re sync the clock from a simple website over the USB C port, but it should stay in sync for years on its own
+
+1:34
+
+over the course of the moon cycle the current phase will influence the generation of the rhythm, waxing and waning along with the moon
+
+1:46 
+
+My goal here really is not do some sort of literal translation from moon phase to rhythm, but to attach you to this object that has a slowly changing life of its own, but shares a real world anchor with you, that exists both in it's univerise, and in ours.
+
+
+
+

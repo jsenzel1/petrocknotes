@@ -1,0 +1,34 @@
+There should be something principled about the way the business end of stuff operates 
+
+either 
+- non profit
+- sell at cost
+- open source
+- education angle 
+- using copyleft liscences
+- hiring locals etc. to work for me
+
+etc. etc. or some combination 
+
+I am in an extremely rare situation 
+
+I don't need any revenue from this to live
+
+So it should be some sort of statement on how I think the world should be
+
+like the hackerspace
+
+//copy 
+
+Eurorack design does not have to be a profit seeking endeavor 
+
+We design because we want to see something new in the world 
+
+For the professionals of other fields, retirees etc. 
+
+we can design like we would tend to a garden. As much about the process as anything. As much about the change we will enact as anything. 
+
+We have a new tool: affordable pcb assembly. And we can use it. 
+
+note: making an educational series on how to order your own batch of circuit boards on jlc as a design
+designing boards that can be ordered with zero assembly ie smd jacks, one layer of board (prob sideways panel)

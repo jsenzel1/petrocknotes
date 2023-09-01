@@ -1,0 +1,11 @@
+Both length of sequence and density mapped to lunar cycle
+
+you can progress the random values by reading the clock and startup and using values as a seed? maybe not because this will always produce the same values every monday every tuesday etc? 
+not progressing the literal value but progressing the randomization range of the value 
+
+maybe normal month dates are better because they're more tied to reality? Little screen with moon on it is also cool because it lets you know when there's actually a full moon - brings that information into your life 
+
+real odometer 
+flip clock display? (tiny) 
+
+//Side idea - eurorack module with display that's a first person game/thing walking around - exploratory etc. 

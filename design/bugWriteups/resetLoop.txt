@@ -1,0 +1,17 @@
+LEAD:
+Seems like this reset loop issue, or also the issue of crashing at initialization etc. 
+is caused by issues with initializing both instances of a given algo one right after the other/at the same time 
+when I just use one, everything runs smoothly 
+maybe look into a delay or check unique identifier bug possibilities etc.
+
+or I wonder if this just means that having 2 is taking up max memory immediately when they're initialized 
+
+In this case reset loop being trigger by algoOver class declaration (not init, not loop[seemingly]) 
+previously this problem was solved with some syntax error 
+
+reset loop means arduino is crashing and rebooting 
+could be a memory overflow 
+or some syntax crashing somethign 
+
+this seemingly fixed by just commenting out some line of mysteriously breaking code and rewriting it with new var name??? super weird - also seems like it just made it break in a different way later 
+

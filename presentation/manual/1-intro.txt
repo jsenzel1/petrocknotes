@@ -1,0 +1,16 @@
+maybe like a risograph zine would be cool - super vibrant colors or something 
+
+(on Cover - READ ME, please read me) 
+
+PET ROCK USER MANUAL 
+V 1.0 
+
+////
+
+This eurorack module does not function like other modules. Most modules work like tools; you understand how they function, turn knobs, and patch until things are how you like. This module works differently - it's better to think of the module as a robotic collaborator, offering a prompt. This module is not controllable, instead, it offers one unique rhythmic pattern every day. This module keeps track of time, even when shut off. You only get 1 new rhythm per day, regardless of how you like or dislike it. Additionally the way this module generates rhythms - its stylistic choices - changes over longer periods of time, from weeks to months, and follows different real life markers like which day of the week it is, and the current phase of the moon. 
+
+When choice is endless and vast, oddly enough we start to make the same choices over and over again. A system with lots of choices needs something to work against - a problem. A problem puts us on our toes, forces us to experiment and squeeze through tight spots. In the exponentially configurable and open world of modular synthesis, this module seeks to provide a problem - an immovable problem, which asks to be dealt with.
+
+The only thing you can control on this module is the clock input. When the module receives a trigger, it moves forward one step and either sends nothing out, or sends a trigger out. 
+
+

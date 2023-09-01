@@ -1,0 +1,32 @@
+A close friend of mine, AC Gaudette, makes video games 
+
+we were living together in Mexico for a little while, and decided to each make a game in a month 
+
+while showing me his game he explained some of his theory of 'authentic spaces' in games, which is much larger and more complex than I can do justice here
+
+he said in short that he wanted his game to be a window into a world. That the world should always be there, always have its own internal continuity, and exist on its own time, even when the player isn't playing or watching. 
+
+I started thinking about what happens when you turn a synthesizer off. Everything is gone. You can save presets sometimes, but the session, what you were doing, how the synthesizer behaves, is gone, and reset. What if the synthesizer stayed alive even when I wasn't using it? even when it was off? What if there was an LFO that lasted a month, and while I was out eating and sleeping and thinking, the synthesizer was living too, very slowly opening a filter, so that each time I turned it on, rather than deciding what to do with it, I would see what it was up to, what point it was at in its own daily routine. 
+
+////////////////////////////////////////////////////////////////
+
+In the book "Microsound" Curtis Roads identifies 9 timescales of music, which I will paraphrase briefly, except for "Supra" which is what we're interested in. Warning: I'm going to be purposefully reductive for most of them, for reasons to be explained 
+
+1. Infinite. - this one is so big it's inacessible to humans yada yada, we don't worry about
+2. *Supra* (AKA THE IMPORTANT ONE). A time scale beyond that of an individual composition and extending into months, years, decades, and centuries.
+
+3. Macro - length of a piece of music, usually minutes or hours long 
+
+4. Meso - length of an element within the piece of music - could be a whole section, or musical phrase 
+
+5. sound object: length of a note or a bit longer
+
+6. (micro), 7. (sample) 8. (subsample) 9. (infintesimal) are all smaller and smaller units, yada yada  we really don't need to worry about them 
+
+so why do I care about the Supra time scale and not the other ones as much. 
+
+Well, just about all of Eurorack, and all music making devices, can fit into timescales 3-8 
+we have devices that effect characteristics of a whole piece (macro), create sequences/phrases (meso), shape and generate notes (sound object) and that change the timbre, use sound particles, alter samples, etc. etc. (micro and smaller). But we don't really have anything that meaningfully changes over time. If you buy a module, it will work the same way on the first day you buy it as the second day, as it will in ten years. There is nothing permanent that changes about it - everything is reset when you shut it off. Saving presets, changing config files, and updating firware are all technically Supra level changes because they persist between uses of a module/synth, but they generally serve a practical purpose rather than being part of the module's creative use. Also, very importantly, those things all have to be performed by the user - they have to be changed purposefully.
+This module has a life of its own, and it is not under your control. It exists in its own universe. It's the only module in your rack that never turns off. It's a living thing, with age, and moods, and epochs. 
+
+

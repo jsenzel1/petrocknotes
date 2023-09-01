@@ -1,0 +1,10 @@
+Making a generator class
+
+class takes global inputs like slop, max rand length etc., and also what algorithm to use
+
+then in the class algorithms are their own methods (or a switch in a big method) 
+
+but in that method, when it comes time to actually play a note - you call the outputNote() method, and that method contains all the code for doing slop, etc. 
+
+/
+for lunar length modulation use nonlinear curves on input

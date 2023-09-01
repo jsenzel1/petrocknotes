@@ -1,0 +1,41 @@
+Mechanical counter like odomoter with really high number it's counting to
+when its maxxed out, it resets, and the behaviour of the thing changes 
+
+max step length gets longer 
+
+clocks behave differently - divided/multiplied somehow? 
+
+kind of like inscryption acts actually - you thought the whole thing was one thing but now its another, like it or not
+
+different behaviors cycle over time
+
+kind of like a tomagochi as well
+//
+
+using nokia display 
+
+different graphics and such for uses 
+ie you get prompted when you turn on from different times 
+
+'wednesday' 
+
+'moon cycle 2' 
+
+with different animations and such 
+hiring someone good with animation to do the animations
+
+one button for screen that swaps view
+
+1 - status w/ day/date/moon cycle/year cycle 
+
+2 - current rhythm with box and x notation like op1, and showing current step etc. 
+
+// 
+
+one seven segment display, different segment for each day of the wee - guide is written on module\ 
+
+having a purely random module/mode that I test my module beside to see if the randomness is readable 
+
+// 
+
+the idea of "putting in your dailies"

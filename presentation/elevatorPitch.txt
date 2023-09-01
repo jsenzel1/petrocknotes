@@ -1,0 +1,11 @@
+my module is a rhythm generator with a mind of its own - you don't control it
+
+- generates a new rhythm every night at midnight, just for that day 
+
+- tracks the real moon phase, different phases effect the rhythm style
+
+- overall algorithm cycles, between 4 different algorithms, every 31 days, on the new moon of a cycle
+
+- each rhythm is a composite of A and B rhythm - seperately clockable
+
+

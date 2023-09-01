@@ -1,0 +1,31 @@
+//Algo REich 
+
+longer reich lengths make things feel a bit less legoey and a bit more wrote 
+sunday lengths seem more appropriate - ie shorten overall length ranges I think
+
+had to go back in code and check what's effecting what, that seems not great
+
+full moon seems not very exciting 
+
+full moon should def be more dense 
+
+oh oops I had the params opposite in my mind
+rn the days control density, the moon controls len
+
+sometimes the reich patterns should be the same length/synced in some way
+
+on sunday, waning gibbous, I got a pattern with 0 in it - should add seed to this pattern like with algo sparse
+
+yes, rolled one where the patter lengths are the same and its way more interesting imo for smaller rhytms - drifting ones might be great for ambiet but I like these for this 
+
+//
+
+low density low max is very cool - makes just small patterns that bounce off each other (has to be clocked very fast)
+
+check for bug - sunday might always make first algo have 0 notes
+or just like sunday monday in general sometimes end up no notes
+//
+
+50% density and 5 steps is a fun place - mid week, early moon 
+
+// using moon cycle as the point/time value in perlin nosie
