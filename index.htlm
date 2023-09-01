@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Directory Structure</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="tree v2.1.1 © 1996 - 2023 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  BODY { font-family : monospace, sans-serif;  color: black;}
+  P { font-family : monospace, sans-serif; color: black; margin:0px; padding: 0px;}
+  A:visited { text-decoration : none; margin : 0px; padding : 0px;}
+  A:link    { text-decoration : none; margin : 0px; padding : 0px;}
+  A:hover   { text-decoration: underline; background-color : yellow; margin : 0px; padding : 0px;}
+  A:active  { margin : 0px; padding : 0px;}
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  }
+  .FIFO  { color: purple; }
+  .CHAR  { color: yellow; }
+  .DIR   { color: blue;   }
+  .BLOCK { color: yellow; }
+  .LINK  { color: aqua;   }
+  .SOCK  { color: fuchsia;}
+  .EXEC  { color: green;  }
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">.</a><br>
+	├── <a href="./:wq">:wq</a><br>
+	├── <a href="./GreenBug.txt">GreenBug.txt</a><br>
+	├── <a href="./QA/">QA</a><br>
+	├── <a href="./README.md">README.md</a><br>
+	├── <a href="./bugs.txt">bugs.txt</a><br>
+	├── <a href="./design/">design</a><br>
+	├── <a href="./directory.html">directory.html</a><br>
+	├── <a href="./fromNotes.txt">fromNotes.txt</a><br>
+	├── <a href="./hardware/">hardware</a><br>
+	├── <a href="./index.html">index.html</a><br>
+	├── <a href="./jeremyQs1%20copy%202.txt">jeremyQs1 copy 2.txt</a><br>
+	├── <a href="./jeremyQs1%20copy.txt">jeremyQs1 copy.txt</a><br>
+	├── <a href="./jeremyQs1.txt">jeremyQs1.txt</a><br>
+	├── <a href="./migration/">migration</a><br>
+	├── <a href="./moonMaps.txt">moonMaps.txt</a><br>
+	├── <a href="./orderCosts.txt">orderCosts.txt</a><br>
+	├── <a href="./perfectCircuitEmail1.txt">perfectCircuitEmail1.txt</a><br>
+	├── <a href="./preSend1TODO.txt">preSend1TODO.txt</a><br>
+	├── <a href="./presentation/">presentation</a><br>
+	├── <a href="./promo/">promo</a><br>
+	├── <a href="./research/">research</a><br>
+	├── <a href="./roadmaps/">roadmaps</a><br>
+	├── <a href="./scraping.txt">scraping.txt</a><br>
+	├── <a href="./scratch/">scratch</a><br>
+	├── <a href="./scratch.txt">scratch.txt</a><br>
+	├── <a href="./selfTeach.txt">selfTeach.txt</a><br>
+	├── <a href="./testing/">testing</a><br>
+	├── <a href="./textsForSite/">textsForSite</a><br>
+	├── <a href="./todo.txt">todo.txt</a><br>
+	├── <a href="./videoShotList.txt">videoShotList.txt</a><br>
+	└── <a href="./waystocontrol.txt">waystocontrol.txt</a><br>
+	<hr>
+	<p class="VERSION">
+		 tree v2.1.1 © 1996 - 2023 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
+</body>
+</html>
