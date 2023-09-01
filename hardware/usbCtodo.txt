@@ -1,0 +1,5 @@
+check regulator ratings etc. 
+
+find 0402 5.1k 
+
+do layout (route stuff beneath!)

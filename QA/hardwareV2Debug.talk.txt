@@ -1,0 +1,24 @@
+Lots of different problems with intermittent startup, etc. 
+
+looks like the regulator on one of the intermittent ones is messed up 
+
+behaves weirdly
+
+sometimes outputs 12 or 8 volts out of 3v pin 
+
+tried one of the boards pre soldering and works fine
+
+my guess is the bigger header pins required more heat time, plus smaller regulator which is right next to the pins, the regulator was exposed to too much heat and got burned to some extent during soldering (twice) 
+
+//
+
+now the boards flash once and then don't work
+but before they would work intermittently between power cycles
+thought startup time on components was the problem,
+
+but pulling reset pins implies that this wasn't the problem, because if that was the problem then pulling reset pin should succesfully restart the code with the now ramped up components (which it didn't)
+
+the fact that it used to remember code could imply that the issue is with the process of taking the code from flash, and loading it into ram, that order/process, etc. 
+used to be that it would sometimes manage to load into ram, now it never loads into ram 
+
+

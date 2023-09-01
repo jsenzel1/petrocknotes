@@ -1,0 +1,7 @@
+- Lookup reccomended track width 
+
+- how to deal with MCU being super cluttered and everything leading there 
+
+- can you thread stuff through resistors etc.?
+
+

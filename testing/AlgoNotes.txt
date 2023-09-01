@@ -1,0 +1,27 @@
+Sparse
+when on 16 steps - could work? prob too short
+
+try fixed number of steps, random distribution
+
+// sparse (this was the yellow algo i observed, remember that being the sparse one)
+
+waxing crescent - too dense, not long enough - feels to close to plain 
+
+super especially if you sum A and B to one rhythm - doesn't feel 'sparse'
+
+---------
+//PLAIN//
+---------
+
+for times where the 2 rhythm lengths *can* be different they should probably *have to be* different so its less confusing when they are and aren't the same 
+this would need some external seed insertion checking stuff as well
+
+could start/hack it by just having larger ranges so they're less likely to be equal
+
+happened with both waxing crescent and first quarter
+
+first/last quarter could be locked to multiples ie b is always double A, etc. 
+
+or they're always 2:3 polyrhthm or something
+
+

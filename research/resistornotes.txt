@@ -1,0 +1,55 @@
+Relationship between voltage, current, and resistance
+
+V=IxR 
+Voltage = Current(amps) x resistance  
+
+1 ohm allows one amp of current to flow when you have 1 volt 
+
+if you move the equation around you can calculate for any of the three unknowns 
+
+I(amps)=V/R
+
+R=V/I(amps) 
+
+//
+
+resistors are used to limit the amount of *current* that flows in a circuit 
+
+if the voltage in a circuit remains the same, the current will decrease if you increase the resistance (add resistors)
+
+many components will have a larger apetite for current than they can handle
+LEDs have low resistance, and will burn themselves out easily without resistance
+
+@ if you know what the supply voltage is and you know how much current you need, you can use ohms law to determine the right resistor to use for the circuit
+
+for LEDs
+a few milliamps of current is enough to make an LED glow, a few hundred milliamps is enough to destroy it
+
+@ resistor can go either on the positive or negative end of the LED - just wired in series (within the same direct path)
+
+//
+
+@ calculate the right resistor with ohms law and such
+
+voltage is known 
+
+you need to *decide* how much current you want to give the component, based on its datasheet 
+(aim below the max rating)
+
+knowing these two you can calculate the resistor value
+
+you can generally round *up* if the exact number doesn't fit 
+
+//
+
+
+@VOLTAGE DROP = FORWARD VOLTAGE (for data sheets and such)
+@Forward voltage is how much voltage it takes to activate the LED
+and therefore is subtracted in the equation because that much is used up in the circuit already
+
+- Take supply voltage, subtract the voltage drop of component 
+- 
+
+
+
+

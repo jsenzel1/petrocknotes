@@ -1,0 +1,7 @@
+panel 128.5 mm* 20 mm
+
+board 106 mm* 19 mm
+
+for y offset 22.5 or 11.25 half
+
+for x .5 half

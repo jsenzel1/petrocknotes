@@ -1,0 +1,27 @@
+Ds1307 is in stock - should i use that instead of the pcf? research compatability/libraries 
+
+battery clips are called battery holders - they do in fact have then in stock 
+
+eurorack pin header footprint size? 5X2 ok? 
+
+check if rp2040 run pin needs to have  anything done to it
+
+double check rtc battery +/-
+
+//
+
+how to center stuff along lines in kicad? 
+
+how much tolerance to give components? 
+
+how to evenly place elements?
+
+FOR playing INDICATOR LIGHTS USE MORE OUTPUT PINS AND DO IT IN CODE
+
+why do rats nest traces move around when closer to some objects
+
+which side do the actual jacks go on? like where is the jack itself and where is the hole
+
+can I just connect the USB bus and the 12v in as well so that you can alternatively power it with usb power
+
+how much space do I need to leave between things?

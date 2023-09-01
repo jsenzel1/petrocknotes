@@ -1,0 +1,15 @@
+- daylight savings time
+[note: check the C standard time thing, there's an option to make it guess if it should be doing daylight savings or not, make sure that's enabled)
+
+x new moon, B led always on 
+
+x(done I think) mood should change ON new moon, not the next day (maybe that's just a 30 day test bug thing, try it with date setting and see)
+
+
+- test the moon data list being used to make sure it never goes backwards (thought i saw that behavior when testing - could have been an unrelated bug though, was flicking the power on and off a lot, and also using the test advancer thing)
+
+x sparse full moon appears to be BROKEN - TEST THIS- problem is probably that the seq var only goes up to 32, but full moon calls it for 64 
+
+-(...) new moon - if you sum the 2 outputs, A doesn't work (B maybe sending some sort of pull down or negative voltage or something blocking A from working
+
+

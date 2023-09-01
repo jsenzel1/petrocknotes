@@ -1,0 +1,17 @@
+What we're learning: 
+
+this isn't necesarily a pico problem (haven't 100% cleared this) 
+
+linking works on pico when there isn't a class used 
+
+which means my research really has nothing to do with pico, 
+and everything to do with building cmake and accessing external classes
+
+ATTENTION:
+
+you won't be able to get classes to talk to each other with pico, until you also add the .cpp file to the cmakelists "add executable" list - see petRock tests for example
+
+add_executable(projectName
+    externalClass1.cpp
+    externalClass2.cpp
+)

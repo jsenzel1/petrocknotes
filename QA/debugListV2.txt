@@ -1,0 +1,49 @@
+seems as though the problem was the oscillator not starting quick enough
+and the problem was solved with correct placement of XOSC STARTUP MULTIPLIER thingy (put it in cmakelists as per the docs)
+
+the descrepencies were probably caused by manufacturing tolerances with the oscillator etc. (could be a compounding thing with all the components)
+
+
+
+----- CLUES
+
+
+the board executes perfectly when code loaded from USB 
+implies that there are no hard circuitry problems during normal runtime 
+
+^implies that issue is most likely during power cycles 
+however, pulling run pin didn't work, so that implies that it isn't a ramp up issue, 
+rather some sort of issue w writing or readiing memory/ram 
+
+wonder if this value PICO_STDIO_USB_RESET_RESET_TO_ FLASH_DELAY_MS being default to 100 is part of why usb works 
+there is an auto delay in place for everything - normal auto delay possible?
+
+
+----- TRIED 
+
+-checked 3.3V while board on at regulator, and different points on the board 
+(at runtime, 3.3V good) 
+
+-pull the run pin to ground to reset 
+this shut off the board but didn't reboot 
+
+- try resetting with a line of code on a time in the blink function that resets the board
+if it succesfully resets here, implies that the problem is with ramp up of components/initial order in regards to the pcb/2040 relation, if it doesn't start, implies that startup isn't the problem, but rather 2040 reset (which might sound like the same, but isn't)
+[worked! idk why I'm happy, implies that the issue is in fact with some sort of initialization at startup, so we're sort of back to square one, but at least that implies that I can focus on that]
+
+
+----- TO TRY
+
+- check ALL startup parameters on page 139 of SDK - theres a bunch in there
+
+- heartbeat watchdog timer - to try and reset the board automatically if no heartbeat is present - that way it can just reset itself and wait until the crystal stabilizes. This probably won't work if I'm not reaching setup or something.
+
+- similarly try sending a reset signal from the cli to see if it resets that way
+
+- print out the XOSC WAIT variable to see if it's actually getting set correctly - does it need to be set somewhere else?
+
+- pull run on a different working pcb design and see if that succesfully reboots or just kills the code
+
+- figure out a way to test the OSC 
+
+

@@ -1,0 +1,80 @@
+- RP2040 internal ground pad? internal volt connections?
+
+he uses ground A and ground B (one for top and one for bottom - but he doesn't really recommend it)
+
+- something wrong with vias? why are they showing up as still having ratsnest 
+
+b generates the fill - refreshes all fills so that's why i didn't have an actual ground plane
+if I make a change hit b and it updates everything
+
+I DO need to rout all the rp2040 ratsnest
+go back and look at the minimal example 
+
+You CAN hop with vias 
+
+ie make a via, go to back of board, then hit b to update but
+
+you need to keep your ground plane solid 
+
+just some quick hops totally fine, but dont fill the ground plane up with a bunch of shit 
+
+he thinks that all the track widths should be bigger 
+
+minimum 15 mils, power 20mils (anything pos voltage 
+esp when trying to get them to the rp2040A
+
+10 mils or .2 is the least david uses - check the ultimate minimum on jlc
+
+you can use the big tracks to get TO the power stuff, but then drop down to ten mil to route between stuff
+
+w and shift+w switches track widths
+
+edit track and via properties you can update everything at the same time 
+and you can also filter by net 
+
+edit, edit track and via properties
+
+somewhere you can constrain minimum clearance - you need to set it to the minimum clearance of jlc 
+
+then run DRC control which is the box with the checks 
+
+- how to implicitly connect the headers somehow in the schematic
+
+- just turn all the LEDS on the left to have more space to route stuff
+
+if you hit b over the track you can just drag it around 
+
+v to flip to back
+
+setting on left side makes things easier
+
+- jlc footprints into kicad
+
+- rules checks? next steps?
+
+- auto routing?
+
+- battery clip is reflow - problem?
+
+
+//David problems
+
+the crystal needs to be very close to the actual rp2040 
+
+he would put the crystal on the back of the first pcb 
+
+how I should do the outline 
+
+the rectangle should be on the edge cuts lays
+
+//
+
+USB should be closer to rp2040 
+
+crystal could be through hole and put it on back
+
+two tracks that are really close together for the outputs - having them running like that for so long is the optimal way to generate crosstalk (esp not if they're an input output pair) and they're long -
+
+only really a problem when they're running right next to each other for a long - use all the space I have 
+
+I want a lot of ground connections between the two pcbs - you want at least twice as many ground connections as power 

@@ -1,0 +1,9 @@
+- Remove the dnf shit depending on how stuff works
+
+- figure out the yellow strips on the faceplate and why they are the only ones of their color? 
+
+- the crystsal can be the one used in rpi pico which is way tinier, which means that the flash could also go there (might be able to swing a single board if willing to through hole the battery and there's space for it)
+
+- other space saving stuff - using opamps instead of the 8v regulator?
+
+- smaller diode footprints for the input protection circuit

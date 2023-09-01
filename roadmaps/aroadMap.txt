@@ -1,0 +1,59 @@
+////////
+Software 
+////////
+
+- get meaningful variable mapping working on 1 algo 
+- get it working on all algos 
+
+- epoch changing over time code (just need to plug this in - but initialization for classes sounds like a messy ass switch statement)
+
+//ALGO TODO 
+implement 
+- ALGO SKIPPY
+- ALGO PAINTOVER
+- ALGO TUPLE
+- ALGO WONK debug step clumping
+- ALGO SPARSE/ALGO WONK 64 resolution mode
+- trying a new Reich esque module that relies on processing of an initial pattern rather than authoring a pat array on initialization
+
+[ 24 *making an algorithm that starts with a short rhythm, repeats it, and then also alters it - maybe there's only one main array, and it gets inverted after some repeats - ie, repeats the pattern x times, and then on the last repeat 1s are 0s and 0s are 1s, something like that]
+
+- rework algo culture, and algo block, or scrap as they both rely on the same underlying principle, and neither have been particularly interesting
+
+(ALGO CLUMP - BACKBURNER)
+
+////////
+Hardware
+////////
+
+- get modular power supply working with arduino test 
+
+- basic pcb design and order/test
+- sourcing rtc/arduino components 
+- designing LED stuff to work
+
+//
+
+
+////////
+TESTING
+////////
+
+there's a var in every algo that if true, when the var gets to the reset line of code, it writes an eeprom value 
+to be ++, and then resets the arduino 
+
+not sure if this works - with overnight testing recording to computer 
+
+how fast should the rhythm be clocked? 
+how does it know when to go forward, bc there are 2 dif rhythms going 
+(maybe just using 1 for the test mode is fine)
+clocking it at 16s 
+
+just having a bool that's 'test mode' that writes an eeprom val to ++ that's used as the current date on startup
+might be much more useful
+ie me sitting with the rig, listening to different rhythms it produces as I step forward through stuff 
+and then using that to see how I like the way it generates rhythms with current settings
+
+maybe listening to a certain number of each step ie different possibilities for that day? 
+probably more useful to just step through the whole algo cycle multiple times because that's what people will actually experience, so thinking of it more as 'user a's experience vs user b's etc.'
+

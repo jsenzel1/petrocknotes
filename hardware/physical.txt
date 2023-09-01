@@ -1,0 +1,12 @@
+Magnifying glass over display to make it look bigger/magnifying glass screwed on to the module - like reading stars or something 
+
+using the electro dimmer pannel somehow
+
+ 3v VU meter from adafruit - replace backing with moon phases and sweep over     3v using pwm
+
+//
+
+using some sort of flip dot esque relay esque thing
+that flips little dots/illustrations of the moon phases and weekdays
+probably more realistically done as writing on panel, 
+and then flipping an arrow sign or something or just a white dot

@@ -1,0 +1,11 @@
+4/11 moon map 
+
+simple increasing max len, algoPlain 
+locked lengths on gibbous
+full moon identical (finish implementing this)
+new moon only A 
+
+thoughts
+////////
+
+like gibbous, maybe it could be dif ranges for waxing and waning but both are locked

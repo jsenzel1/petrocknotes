@@ -1,0 +1,37 @@
+if the transistor is BEC (which it is) as long as I put the right symbol in it's cool right, the base emitter and collector are still going to the correct places within the circuit, the difference will just come at the PCB design stage and those wires will go to the correct corresponding pins that I checked on the datasheet
+
+does mmbt3904 need a pull down? 
+as suggested here
+https://electronics.stackexchange.com/questions/264937/consideration-when-switching-from-2n3904-to-mmbt3904
+(looks like there's already one there)
+
+Where do the actual jacks go in the output level shift circuits?
+
+are the output jacks protected against output to output connections? how common/important is that protection and how bad is it if its misused
+
+SBDs for input, VCC should go to 3.3V buffered voltage to get clipped right?
+
+//Replacing LM4040 (becuase it seems to be out of stock/they don't sell it at JLC direct) 
+
+https://datasheet.lcsc.com/lcsc/1810261545_Holtek-Semicon-HT7580-2_C259653.pdf
+
+^^This One? Amp draw of Euroracks? 
+
+L78L08 also seems not available
+
+78L08 is though?? wtf
+
+https://datasheet.lcsc.com/lcsc/1912111437_MDD-Microdiode-Electronics--78L08_C414024.pdf
+
+https://jlcpcb.com/partdetail/Hubei_KentoElec-C34499/C34499
+^^currently thinking this LED option because it is 3V compatibkler
+
+techincally slightly different, guessing just a different manufacturer/slightly different 
+
+https://jlcpcb.com/partdetail/21237-MMBT3904/C20526
+^^that LED looks a bit more standard and good
+
+RGB LED
+https://jlcpcb.com/partdetail/110013-FM_B2020RGBAHG/C108793
+
+

@@ -1,0 +1,9 @@
+you get the sequence but you can edit the start and end points of the loop and leave rests before/after the start or end of the sequence
+
+//
+
+there is a trigger to trigger a break 
+
+// 
+
+there is a trigger to reset the sequence to step 0 (so that you can essentially quantize the sequence to a set length by sending a slower clock into it

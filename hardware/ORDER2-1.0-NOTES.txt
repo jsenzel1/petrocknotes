@@ -1,0 +1,9 @@
+- USE DAVID BOARD and NEW FOOTPRINT
+
+- Re assign footprints to the caps - all are basic 0402s now, some are set as 0805s (that will save some space though (yay!)
+
+- output regulator is low in stock, check in a day or two, if its a problem maybe new component (or use op amps?)
+
+- note make sure lightmask has a full metal plane somewhere to block light, maybe also covered in soldermask to not be too reflective
+
+

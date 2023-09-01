@@ -1,0 +1,83 @@
+//From Minimal SCH
+
+RP2040 to Crystal 
+8.5mm outer pad to edge 
+
+Rp2040 to USB
+21.5mm outer pad to outer pad
+
+edge to edge track spacing (minimum)
+.25mm 
+
+//
+
+TODO 
+
+JLC - find compatible stuff 
+JLC - import c numbers in kicad 
+JLC - try JLC autoscript 
+
+X THROUGH HOLE USB BOOT THING
+
+pcb updated footprints 
+bat432 (or the other diode, can't remember)
+
+
+x realign top header
+(move and then drag wires to holes)
+- get rid of unnecesary through hole pins 
+
+x make power lines thicker (and deal with shit) 
+x input special rules for jlc tolerances 
+
+move Right Collum leds over to the left a bit
+
+// QUESTIONS
+
+check for raspberry pi input protection so as not to cancel out internal rp2040 protection 
+
+c21 and c22 - .1uf - correct? = 100nf? 
+
+why is 1k on the list twice 
+
+MAKE SURE
+I understand how stacking works and that the battery clip, and eurorack power will be going through hole on the back of the 2nd board, and will be correctly aligned
+
+DRC CONNECTION ERRORS 
+
+why am I getting ground and +3v3 connection errors? 
+
+does that imply that some ground connections are connected to each other in a clump but don't ever reach the copper fill ground plane? I should be able to check this by looking back at stuff myself
+
+DRC ERROR
+trace length out of range on some vias 
+
+whats up with weird unconeccted items including ground to ground etc.
+
+TRACE WIDTHS
+
+double check but seems no
+do the 12v/8v traces need to be larger than the 3v ones? like is that more of a concern? 
+
+NOTE THIS
+(how internal, ie are they just talking ab their module)
+There are internal 10K pull-ups on the PCF8523 on SDA and SCL to the VCC voltage
+
+does the rtc need to be closer to rpi? shorter traces etc? 
+
+which pins do I need to use for the i2c on rpi
+should be good - im on GP16 and GP17 which are an i2c0 pair
+BUT CLOCK AND DATA SHOULD BE SWITCHED
+GP16 should be data (27) and GP17 should be clock (28)
+
+add more decoupling caps like it mentions in user manual? double check adafruit breakout schematic/board itself to see what theyve used (if it works testing with the pico then should be good enough)
+
+how to export for jlc? 
+
+//PARTS 
+
+cap footprints ok for reistors in this case?
+
+//FACEPLATE
+
+adding hole? edge cuts layer? 

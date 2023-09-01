@@ -1,0 +1,41 @@
+- check buglist from testing
+
+x add algos to rotation, add correct colors
+
+x test algos in rotation 
+
+- revise manual, print
+
+- upload website
+
+- candy for boxes
+
+//
+
+simple testing list
+
+x test all ALGOs on all cycles using test
+
+- test full moon, new moon with date setting on site
+
+x test reverse power protection
+- test mask alignment with date set and then solder
+
+- make sure ALL testing variables are off
+
+- upload correct code to site
+- set time for correct regions (seattle etc.)
+
+x fold mauals
+
+- pull boxes and address them 
+
+- send at post office/leave some at home for mailing etc.
+
+
+
+
+
+
+
+

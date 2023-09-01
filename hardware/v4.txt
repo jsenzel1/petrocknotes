@@ -1,0 +1,26 @@
+x check current draw! 44mA - seems totally fine and chill
+
+x waning gibbous on faceplate has a little tiny piece o crud on it
+
+... star shapes for the weekdays - doing it for the indicators now, not the weekdays 
+
+
+x metal backing just below mood to block light leak
+
+moving upper jacks so its easier to plug in 2 stackables? does it matter?
+
+
+x smaller holes for the power header in the board - imprecision there also contributes to light mask misalignment
+
+//
+
+get rid of solder mask on back of panel (!)
+
+remove order numbers
+
+
+// MAYBE 
+
+perhaps moon phases on backside of the panel in copper, surroudned by fr4
+
+and/or putting some metal backings on weekdays that make them more perfect circley

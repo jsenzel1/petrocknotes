@@ -1,0 +1,73 @@
+PCB Qs
+
+//First/immediate thoughts from David 
+
+patch up some ground plane stuff
+
+clean up stuff above the rp2040 thick and thin stuff 
+
+make traces switch thicknesses less often
+
+-12V polyfuse probably entirely useless
+doesn't do anythign - doesn't hurt to have it there though
+
+//
+
+EURORACK RIBBON CONNECTOR 
+
+//
+
+1k on spreadsheet twice? 
+
+1.01k resistor vs 1.1k etc. 
+
+// 
+
+is stacking done correctly? 
+making sure that the eurorack connector is correctly aligned 
+
+//
+
+why am I getting drc 3v3 and ground connection errors? something about continuity of how stuff is connected
+
+//
+
+copper fills?
+
+HE SAYS
+put a little ground fill plane on the top layer to connect up the power regulators on u1 and u5 
+
+X or alternatively just add individual vias for everything connected to u1 to ground 
+
+IF POWER FOR SOMETHING HAS CHUNKY TRACE THE GROUND TRACE SHOULD ALSO BE THICK
+
+are many extended parts shared between the pcbs? ill have to pay extended parts stuff twice 
+prob better to just order as 2 seperate
+
+//
+
+Panelizing pcbs? just do 2 seperate in the order? 
+
+//
+
+Checklist for pre sending
+
+- where pin one is on all the components 
+- making sure orientation is right
+- making sure they'll physically fit 
+
+make sure the ground plane is totally connected
+
+//
+
+put capacitors on crystal for U4
+
+front panel - making graphics into traces for lighting stuff
+
+gold traces? 
+
+//
+
+
+
+

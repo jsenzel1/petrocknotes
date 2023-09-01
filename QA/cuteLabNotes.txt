@@ -1,0 +1,59 @@
+using mutable isntruments tvs diodes 
+
+use 2X5 pin arrangement for power supply 
+
+//Power supply protection 
+series diode protection
+introduces power drop 
+you can use a schottky diode 
+
+but what he reccomends instead is to use a polyfuse protection instead 
+
+you have a polyfuse in series, and also a diode connected 
+he uses
+SMD0805-010-24V
+the diode can be any cheap power diode
+
+google polyfuse protection 
+
+//
+
+using the pico minimum viable board 
+
+// 
+
+8V for gates
+
+//
+
+a way to market it this would be don't tell people that literally
+keep the mysteriousness
+the mystique
+
+//
+
+for PCB one all ground, other side connections 
+all the connections have vias to ground
+
+use a decent track width for power .5mm
+but for everything else you can use pretty small traces
+
+//
+
+to step the voltage up on output of rp2040 
+use a CMOS chip 
+CD40106B
+or HC etc. - as long as the numbers are the same 
+40106
+
+use a regulator
+L78L08 
+12V to input 
+outputs 8V 
+put a capicator to ground to help smooth out the voltage
+
+//
+
+pj398SM
+
+//

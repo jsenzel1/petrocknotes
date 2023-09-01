@@ -1,0 +1,26 @@
+Subject: pitching a $15 retail fully featured Eurorack module
+Subject: "Wordle for Rhythms" Eurorack module at $15 retail 
+
+Hi! I'm Jonah Senzel - finishing up a new Eurorack module and looking to talk with distributors. Everything has been built and tested, ready for scaled production, planning on launching in september, but flexible. Would love to talk on phone or video for a more human being-esque experience - here are the basics:
+
+- 4hp module "Pet Rock" - generates a new rhythm every night at midnight that you have 24 hours to use (like wordle for rhythms - everyone who owns the module gets the exact same rhythm. no internet connected needed) 
+
+- you get 2 independently clockable (gate in, gate out) 'a' and 'b' rhythms each day so there's flexibility in how you use it/clock it (can be used together as 1 composite rhythm, split into 2 separate rhythms, etc.)
+
+- rhythm generation parameters change according to the real current moon phase, overall "mood" changes every 30 day moon cycle (keeps it fresh - changes between several custom algorithm "moods" that produce distinct styles)
+
+- module will be open source, and sold *at cost of production* (based on prototypes, should be around $15, fully assembled) meaning I will not make any profit from it. Because of this I'm hoping to find distributors that will work with me and understand that I'm not running a normal business - I'm looking to put something interesting out into the eurorack world that anyone can afford. 
+
+Love how big Synthcube has been in the DIY scene, and I think it could really be a good fit with the philosophy behind the module, and I'm from MA so it just feels more like home! 
+
+phone: 774-810-5763 
+email: jsenzel1@gmail.com
+
+Best
+
+
+
+
+
+
+

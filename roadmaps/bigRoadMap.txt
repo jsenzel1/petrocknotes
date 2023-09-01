@@ -1,0 +1,6 @@
+1 MONTH PROJ 
+
+random rhythms module 
+based on RTC 
+
+

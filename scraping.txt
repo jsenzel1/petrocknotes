@@ -1,0 +1,3 @@
+can be in a massive array
+the index of the array is datetime jan 1 2020 + index that you're reading
+the array starts at jan 1 2020

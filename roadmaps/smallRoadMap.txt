@@ -1,0 +1,28 @@
+- Input protection circuit wiring diagram 
+
+get input output protection working
+test IO protect with gear, then with modular
+ 
+get rtc working 
+
+get write to eepROM working 
+
+solder to proto and test 
+
+start working on long term variable writing
+-days of the week
+-eeprom variables 
+
+//
+
+buy screen and components 
+
+test visuals/screen tech
+
+build pcb through hole version? 
+build SMD version? 
+
+// 
+
+
+

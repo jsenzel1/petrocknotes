@@ -1,0 +1,29 @@
+Use the p5 text injection datetime method 
+with usb upload 
+(add a line of text into the uf2 that has the datetime somehow - would need to figure out how to make it work with uf2)
+
+then, on the rp2040 side, set the time to that and then wait say 5 minutes (the person has 5 minutes to plug it in) 
+
+then if the datetime is not 0 and is within say 15 minutes of that hardcoded time, turn off the set time flag? not sure if that works
+
+maybe if its more than 5 minutes off but less than an hour off, turn off the flag that sets the time and the flag that checks if the time is in the right range? 
+
+//
+
+using low frequency waves from headphone jack 
+ie 5hz and 7hz to send a binary number thats the epoch
+
+// 
+
+just having a switch that turns it into set mode and uses serial communication to set the clock
+
+ie
+https://editor.p5js.org/jps723/sketches/Byvw1lu6Z
+
+//
+
+could do both so that a software update automatically sets clock 
+
+or maybe just having both be one thing really is the best way
+
+

@@ -1,0 +1,1 @@
+sometimes its just minicom frozen that needs clearing, not real problems

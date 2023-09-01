@@ -1,0 +1,62 @@
+NO LIBRARIES (EEPROM, RTC, ETC)
+NO ARDUINO.H
+
+Serial.println -> printf
+
+variables aren't byte or int, but rather uint
+NOTE - CHANGE THIS SO THAT uint is int for vars that need to be negative sometimes
+(might be able to just throw everything into int_16 cause memory doesn't matter when you have a fuck ton of it)
+to check which vals need negatives (not that many) - search old files for "int" and then change all of those to signed, then once they're signed, uint16 could be changed to uint8 if memory is needed
+
+completely ignore light for rn, cause it's all an external library
+
+////TODO 
+
+Overall-create jfunc and figure out how the header passing works on an example file 
+when jfun is working in that file, it can be included in the main file and all the algo files
+this is a more robust solution because also allows for more custom functions to go in later
+
+thigns to find and replace rewrite: 
+pin setup, digital read and write
+
+XINCLUDE
+Library headers for all files (includes) 
+
+XTYPES
+long and double need type conversions
+
+XPINMODE
+sort out PINMODE (and "input" etc.) 
+https://www.okdo.com/getting-started/get-started-with-raspberry-pi-pico-gpio-c-c/
+^^^At this link
+^^^(gx to open links)
+
+XFUNCS(RAND AND MAP)
+prob easiest to write my own function to convert rand to arduino style random, same with map 
+
+XSTRINGS
+for right now just comment out any string vals - can be figured out but string vals happen to be purely for testing purposes on this project so seems like they can sort of be forgotten about for a second 
+
+/SEED
+randomseed just not working - this is very mission critical, but also a basic function so I'm sure I can get it working, maybe in a sandbox environment 
+
+XROUNDING
+implement round
+
+#define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+
+XVAR PRINT
+printf that isn't in quotes needs to be wrapped as follows (will print int formatted version)
+
+````
+printf("Value of i = %d\n",i);
+```
+
+TODO LONG TERM
+
+/LIGHT LIB 
+
+/RTC LIB
+
+
+

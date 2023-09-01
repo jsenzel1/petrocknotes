@@ -1,0 +1,27 @@
+regulator to allow usb power and rack (simultaneous?)
+(just to rp2040 - how to isolate power line so it doesn't try and power the rest of the system? or not a problem? 
+
+reverse power protection seems to not really be working - heat up/burn/etc. 
+
+flying bus board
+
+is it dangerous to have the thing plugged in via usb and in the europower? 
+should that be avoided? usb only for updates? 
+
+inline labels for stuff? so that it shows up nicely in pcb but I don't have to teleport it
+
+mask baord copper connected? 
+
+tiny switches for bootsel
+
+knobcon 
+
+pratt:w
+
+//
+
+FIX - 2 REGULATORS WON'T WORK (or shouldn't)
+
+switch blue led resistors
+
+///

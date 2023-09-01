@@ -1,0 +1,11 @@
+sudo stty -f /dev/cu.usbmodem11401 1200
+^force to file mode
+
+/Volumes/RPI-RP2
+^copy file to here
+
+sudo minicom -o -D /dev/cu.usbmodem11401
+^minicom monitering in other window
+
+
+

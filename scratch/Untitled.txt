@@ -1,0 +1,18 @@
+Foldout calendar or pages 
+That is very small font icons of 100 years of moon cycles 
+2020 to 2120 
+Or 2000 to 2100 
+
+With the year numbers peppered in programatically where they fall
+
+Making it with a p5 script and svgs
+
+It accordions out 
+
+//
+Map one param to the index of the 100 year moon cycle 
+
+//
+
+Cicada module that changes every 17 years or something 
+

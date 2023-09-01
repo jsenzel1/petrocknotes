@@ -1,0 +1,96 @@
+//
+
+Lead free solder! 
+
+//
+
+I think made a mistake by not doing usb C
+add usb C, with power abilities for bus power (should be fine, just say never plug it in to usb and normal power? is that a problem?) 
+
+think about it from a user standpoint 
+
+before you even install it in your rack 
+
+- install battery
+- flip the switch on the flash drive switch, 
+- drag and drop software on to flash drive, auto ejects
+- then you install the module
+
+all the installation happens pre ribbon cable etc. 
+
+regulator to accomodate 12V + 5V power if needed
+
+//
+
+x ovular holes in front panel 
+
+x Clear instructions for -12V/Stripe on PCB back silks 
+
+x move the usb connector over, its hanging off the board a little too much for my taste (check with a straight edge though, if flush with the panel maybe ok? but there's room to move the power connector over so just move everything to the left doofus)
+^if I do that, flip power connector so that red stripe is on the bottom, that way the cable will be facing the right way in order to easily go behind the module
+
+// LIGHTMASK
+shift Tuesday over a bit to the right 
+make the whole thing a bit wider 
+make it extend in the top to the jacks, with cutouts for the negative leg of the jack 
+make it extend to the bottom, over the USB (there's room as long as the header spacer makes it just a bit taller like it does)
+
+Add metal to the back of the board up through to the DOW/Moon section to block out the RGB light? rounded rectangle/oval window
+windows on the back of the pcb! could even do the same for the days of week to get a cleaner circle 
+just in general, back layer metal can be used to hide light where its not wanted without altering the front panel look
+
+^prototype this with Aluminum tape
+
+move new moon hole up a tiny bit, maybe make a bit smaller
+all holes actually maybe slightly smaller
+
+//
+
+lightMask bleed is also being cause by the fact that there is NO COPPER LAYER INSIDE THE LIGHTMASK 
+
+THERE SHOULD BE A COPPER LAYER INSIDE OF THE LIGHMASK 
+
+maybe not connected to the pads? anyway - flashlight shines through it rn
+
+//
+
+light mask make the holes a little too far apart (double check this to make sure it makes sense, not closer together) so that the header pins have to get a little bit stretched out and the whole thing gets held in place with tension
+
+//
+
+make it thicker? 
+makes light better that way? right size etc.
+
+//
+
+X change font of "patience" on the front panel
+
+//
+
+x move squiggles from moon over to the left to prevent extra bleed on that axis, 
+
+also mask holes on moon phase side should be a bit smaller
+
+//
+
+front panel missing text "MOOOoooonN"
+
+//
+
+bottom output LED lights up the - leg of the jack, probably flip the jack component so that the ground leg is facing away from the LED
+
+// 
+
+Layout idea
+
+swap position of the top 2 jacks and the battery if possible
+this would give more stability (jacks closer to case top) and also allow the signal leds to get masks if wanted (which was why I was thinking of changing the layout in the first place
+
+//
+
+blue LED super duper hard to see 
+
+put it below jack as indicator
+also lower the resistor value siginificantly
+
+does it take out some of the magic? `

@@ -1,0 +1,18 @@
+Figured out and to-integrate into codebase 
+(push to github after initial integration!)
+
+stuff is going to need headers
+
+- Leds for weekday and moon cycle
+
+- RTC expose values (and pass these to moon calculation)
+
+- input outputs (change pin numbers and flip polarity of outputs)
+
+- inputs outputs assign 2nd rhythm to have its own input correctly (this will involve rewriting some constructors)
+
+- RGBLED to epoch (using pwm)
+
+
+
+

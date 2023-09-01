@@ -1,0 +1,33 @@
+Schematic design 
+
+//Things to drag and drop from minimal schematic
+(or just take the minimal schematic and pare things down until I have something I want 
+
+- flash 
+- USB power (how much do I need this)
+
+//Things to add 
+
+//RTC
+- finishing RTC (test connecting to i2c with adafruit breakout to pi pico)
+
+//LEDS
+- SMD LEDS
+- switching configuration
+- look into what rgb led needs and if going straight from gpio is viable
+
+//POWER
+
+- how do i deal with eurorack power source? 
+- esp how do I deal with the small connector 12v and -12v 
+- where do I feed the rp2040 the 5V - thinking I can just slot it into where the USB power would be? probably a place to add in power right to the chip - if its actually 12V do I need a level shifter? maybe a 12v right to 3.3v or something?
+
+implementing polyfuse protection circuit
+
+//INPUT HANDLING
+
+- using Schotty barriers like the hagiwo stuff? maybe research this a bit more? david seemed to think that would be ok 
+
+//OUTPUT HANDLING
+
+implementing david's circuit for output

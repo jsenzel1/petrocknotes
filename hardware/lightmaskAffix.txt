@@ -1,0 +1,6 @@
+use 3m pad
+use lever nut snap things
+use screw terminals
+use standoff screw 
+
+

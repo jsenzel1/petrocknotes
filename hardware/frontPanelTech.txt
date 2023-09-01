@@ -1,0 +1,5 @@
+Jack Diameter - 6.2mm (3.1mm radius) 
+
+mounting hole - supposedly 3.2mm (1.6mm radius)
+
+FRONT PANEL WILL BE SLIGHTLY BIGGER THAN PCB - CENTER IT AND CHECK 

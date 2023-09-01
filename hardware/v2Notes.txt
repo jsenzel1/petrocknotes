@@ -1,0 +1,30 @@
+Panel needs to be sturdier
+
+I/O needs to be visually clearer while thigns are plugged in for example, distinction between A and B and in and out
+
+need light lense small holes
+
+add switch to back for time setting mode 
+(double switch? one for bootsel, one for serial acceptance?)
+
+signal led - 2 color to show the reset out
+
+usb C?
+
+2 different colors for dayleds and moonleds
+
+NOTE - polyfuse vals are wrong! 
+
+//While working
+
+- deleted the dnf - is that cool?
+
+note - moon 7 and 8 swithed, days 1 and 2 switched
+
+// LIGHT MASK 
+
+with the new plan for some more metal on the faceplate to also help w masking,
+signal leds might have so much unmasked spread that they light up phase leds - not that big of a deal though because by the time you're using signal leds, theoretically you've read the panel
+
+however, if the RGBLED bleed is super strong on those moon phases, it might interrup some stuff (the color will light up the phase windows
+but the new design should make this less likely as the jack are in between the rgbled and the indication panel stuff

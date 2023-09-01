@@ -1,0 +1,12 @@
+Moon 7 and 8 switched, 
+days 1 and 2 switched 
+
+things that need/might need vias
+- rtc clock and data
+- usb +/-
+- 12V/8V power to top 
+
+-outshift1 output
+
+-qspi ss
+

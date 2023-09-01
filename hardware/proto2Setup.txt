@@ -1,0 +1,8 @@
+IO to controller 
+
+Pins for 
+2 ins
+2 outs 
+(both with inline circuits) 
+
+

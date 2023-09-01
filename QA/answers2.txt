@@ -1,0 +1,45 @@
+double check pinouts to datasheet for regulator (and everything) 
+
+double check mmbt3904 too
+
+be very careful about the footprints 
+make sure the footprint is correct for the polarity of the symbol (especially for diodes)
+
+forward/drop voltage (obviously is getting used to make it brigther) 
+
+voltage to be resisted/soaked up 
+is whatevers left over after the LED gets as bright as it can with given supply
+
+make sure the rgbled pins have PWM as an option
+
+for red LED - try the LEDS at home maybe 
+
+if i follow usb guidelines 
+should be good for flashing 
+
+figure out the battery clip footprint and stuff
+
+trigger leds
+
+add trigger LEDs to be triggered in software
+
+x mvb power in 
+
+david labels everything by hand
+
+thonk footprints 
+pj398sm
+
+//
+
+number everything
+add footprints to everytyhing (associate footprints with each symbol) 
+
+then create the pcb 
+click pcb button
+then update pcb from schematic
+
+
+GATES GET INVERTED IN CODE 
+(bc using transistor)
+

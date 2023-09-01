@@ -1,0 +1,21 @@
+How do you prototype for smd stuff? 
+like do you order smd parts and also order breakouts?
+
+solution for lighting LEDS - ie how do you control 2 sets of 8 leds where only one needs to be lit in either set (actually one of 7, one of 8) if I have enough gpio can I just route stuff all through one resistor and turn on whichever resistor I want? 
+am I still planning on doing one rgb led for the long term status LED?
+
+///// questions for RTC PCB layout
+For PCF8523
+how much power do I need, is 3.3V chill cause its within the data sheet ranges 
+(adafruit also says 5V or 3.3V both cool so that sounds chill)
+
+do I need pull ups? what are they for why are they disableable? 
+do I need another seperate filter cap? is that overkill? (that's whats in the adafruit schematic
+
+how to get rtc talking to rp2040 pins directly 
+
+Can I use the sq output of the pcf8523 to clock the rp2040 as a whole as well?
+IE, can I use one crystal to drive both the rp2040, and the RTC clock?
+
+//
+

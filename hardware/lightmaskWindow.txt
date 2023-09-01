@@ -1,0 +1,16 @@
+Instead of holes in light mask
+Mask pcb has soldermask and transparent windows
+
+//
+
+Holed on light mask shaped like the moon phase so they project on the front panel 
+
+Or a small motor with a rotating pcb of the cycles 
+With them very close against the back of the front panel
+
+Or somehow other stuck on solid moon shaped on the back of the front panel
+
+Or copper shapes on the back of a semi transparent front panel that get revealed when a light shines on it
+Like a little blank circle that turns into a sillouhete of the moon
+
+^ tried that it didn't really work

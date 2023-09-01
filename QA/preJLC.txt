@@ -1,0 +1,6 @@
+-12 polyfuse thing backwards or correct? 
+should I just get rid of it for simplicity?
+
+Panelization 
+
+RGBLED rotation/placement 

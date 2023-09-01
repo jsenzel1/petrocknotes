@@ -1,0 +1,20 @@
+// Options 
+
+# Arduino Nano
+- cheap
+- already know it works
+- good libraries available easily 
+
+- how to use for SMD? 
+- how to use with SMD RTC? 
+
+- sketchy sourcing from china/aliexpress 
+
+# atmega38 SMD 
+- cheap(?) (not sure if cheaper than assembled nano) 
+- works directly with SMD components 
+- probably good libraries available
+- no extra fluff 
+
+- need to construct ram/eeprom?
+

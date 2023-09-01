@@ -1,0 +1,13 @@
+ Hey! I'm Jonah - love your page! I'm working on a really weird eurorack module right now and trying to send out some prototypes and get some feedback (planning on releasing in September at knobcon). Wondering if you'd be interested? I'll ship it to you, no cost. Some details about the module; 
+
+- 4hp module "Pet Rock" - generates a new rhythm every night at midnight that you have 24 hours to use (like wordle for rhythms - everyone who owns the module gets the exact same rhythm. no internet connected needed) 
+
+- you get 2 independently clockable (gate in, gate out) 'a' and 'b' rhythms each day so there's flexibility in how you use it/clock it (can be used together as 1 composite rhythm, split into 2 separate rhythms, etc.)
+
+- rhythm generation parameters change according to the real current moon phase, overall "mood" changes every 30 day moon cycle (keeps it fresh - changes between several custom algorithm "moods" that produce distinct styles)
+
+- module will be open source, and sold *at cost of production* (based on prototypes, should be around $15, fully assembled) meaning I will not make any profit from it
+
+let me know,
+
+Best! 

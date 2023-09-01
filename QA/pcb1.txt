@@ -1,0 +1,11 @@
+Description 
+
+Boots as usb device
+if I drag uf on it it reboots succesfully
+but then its just still in usb mode
+
+jumped empty r2 with a wire 
+
+continuity to 3.3v is good (immediately on startup) 
+
+no accidental continuity to ground with bootsel pin, neither at the jumpers nor at the chip itself 

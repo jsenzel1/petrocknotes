@@ -1,0 +1,15 @@
+- figure out epoch calculation with fixed moon map data (ask GPT) 
+
+- implement reset LED 
+
+- finish implementing algoVari
+
+- implement moon cycle rhythm length phase test (identical rhythms on full)
+
+- sun and moon ^ implement grabbing some data from what day of the week it is
+maybe length of A is from Day of Week (sun) length of B is from moon cycle (moon)
+
+
+
+
+

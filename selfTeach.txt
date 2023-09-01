@@ -1,0 +1,38 @@
+READ, THE GODDAMN, DOCUMENTATION (SDK) FIRST
+
+//AXIOMS 
+
+debugging is often like the horse game (where the secret is that it's the number of words that you say after you do the leg slapping thing). Everything is there to distract you, everythign is a red herring, and you analyze the red herring to death, but the answer may be in the surrounding, outside of the confines of the game, somewhere where you thought you weren't even supposed to look, allowed to look. Somewhere where you wouldn't bother to look, because its seperate from the problem
+
+//
+
+If both legs of two components are at the same junction
+means that they're wired in parallel 
+ie the go side by side on a bread board with both legs on the same rails
+
+double check that you changed the pin numbers in code 
+
+for time library use this line when null error thrown 
+include <TimeLib.h>
+
+debug with an LED in a circuit, and use the oscilloscope/multimeter
+
+//CODE 
+
+check for = vs ==
+
+check if statements to see if its being evaluated as always true or always false etc.
+
+when initializing parameters, they have to go in cmakelists 
+this is what fixed the startup bug where I had to wait to initialize w crystal (XOSC WAIT MULTIPLIER or whatevere). See Documentation on details
+
+//JLC 
+
+categories are total shit - if searching for something initially, use global search then figure out the category from that
+
+alphabetization is broken (ints are treated like strings or something) and I think in field search is kind as well so just scroll down in values until you've seen more than you would normall look for in 
+
+//Hardware
+
+remember the difference between physically numbering pins and GPIO numbers when writing code
+

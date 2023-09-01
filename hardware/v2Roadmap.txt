@@ -1,0 +1,3 @@
+- swap components for pico components
+- find basic part versions of caps/resistors
+

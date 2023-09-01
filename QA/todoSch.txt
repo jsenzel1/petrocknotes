@@ -1,0 +1,14 @@
+calculate resistor value for the L7808
+does the L7808 need a cap? Europi uses one (1uf)
+
+check footprint for sm4001
+
+x power protection (polyfuse)
+x gate input  X2 (buffered)
+x gate output X2 (buffered)
+x RTC Module Interfaced with Pi
+x 1 Set selectable LED X8
+x 1 Set selectable LED X7
+- 1 RGB LED
+
+Indicator LEDS in output path circuit? 

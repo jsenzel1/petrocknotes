@@ -1,0 +1,45 @@
+-check that transistor BEC is correctly set up 
+(with corresponding jlc page open)
+
+https://jlcpcb.com/partdetail/21237-MMBT3904/C20526
+
+X-------------------/
+
+replacing the lm4040 with 78L08(?) 
+
+resistor calculations for this, will this work
+
+NO RESISTORS 
+X 
+
+/-------------------/
+
+which LED to use? driving LEDs direct from GPIO
+
+/-------------------/
+
+using RGB LEDs (old school kind) 
+And how to wire them into circuit
+
+/-------------------/
+
+overall questions: 
+organizing JLC parts pre buying?
+keeping them in some sort of profile? 
+
+//
+
+can I trust the little one line description on the JLC description? 
+how do I know exactly what I'm getting IE LED vals etc
+
+how do I make sure that its flashable? ie that it works with usb? 
+rpi pico has a button that makes it into mass storage - how does it work with real devices?
+
+//
+
+numbering components correctly in kicad 
+
+
+/-------------------/
+
+

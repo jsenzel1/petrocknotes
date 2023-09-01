@@ -1,0 +1,71 @@
+Basic architecture 
+
+- power protection
+- gate input  X2 (buffered)
+- gate output X2 (buffered)  
+- RTC Module Interfaced with Pi
+- 1 Set selectable LED X8
+- 1 Set selectable LED X7
+- 1 RGB LED
+
+//
+
+some chips have pull ups on the chip itself 
+check rp2040 for pull up lines
+
+if there are pull ups in rp2040 then I can take them out (probably)
+
+[Looks like forums are saying I should keep the pullups in there]
+
+for first draft, I could leave in the pads and don't have them populated so if things aren't working I can put in resistors and see if it fixes things
+
+//
+
+you CANNOT share crystals
+
+check the datasheet for the JLC RTC to see if it work the same way/uses the clock frequency
+
+reccomends just using 16 resistors
+
+never hurts to have more resistors (places to put them)
+
+// add heirarchichal sheet
+click then drag and click 
+
+click to go in
+
+then option delete to go back 
+
+//
+
+import the rtc by making new and import schematic content
+
+digikey has good kicad libraries
+
+// 
+
+just get a regulator like the one on mvb that accepts 12 and regulates down to 3.3
+^use this to replace existing mvb shifter 
+
+//
+
+check data sheet for level changing resistor (lm4040) to output 8V 
+
+mmbt3904 transistor
+
+research transistor buffers 
+
+//
+diystomboxes
+
+//
+
+I should only need one LM4040 for both outputs
+(but check the data sheet for max current)
+should be good for two transistor 
+
+if there's not enough current it won't turn on the next thing in line - 7.5ma per output (15 split into 2)
+
+check the standard current draw for a gate input on a eurorack module
+
+//Use 2 and test with stackables to see

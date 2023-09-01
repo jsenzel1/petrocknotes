@@ -1,0 +1,15 @@
+- Can removing decoupling caps mess up chips that use 3.3v? (ie the rtc)
+
+- removed 100n c12 cap at right side of board 
+
+- alternate pin assignments and why are they so fkn shitty (aka sot-23-3 version of power regulator)
+
+- show svg import for pcb panels/blanks
+
+- check specs of blue leds (and alt color for other row? Other safe leds/what specs actually matter?
+
+- better way to align the panel holes w jacks? (right now doing it kind of by hand, pretty precisely but it feels stupid)
+
+- making the holes in the light mask small enough so that when you stick it on it stays in place from friction?
+
+- Check v2 flash (same as rpi pico, think its basically identical to old but just smaller)

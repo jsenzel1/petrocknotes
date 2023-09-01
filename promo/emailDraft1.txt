@@ -1,0 +1,34 @@
+Subject: pitching a $15 retail fully featured Eurorack module
+Subject: "new rhythm every 24 hours" Eurorack module at $15 retail 
+
+Hi! I'm Jonah Senzel - finishing up a new Eurorack module and looking to talk with distributors. Everything has been built and tested, ready for scaled production - tweaking details now, planning on launching in september, but flexible. Would love to talk on phone or video for a more human being esque experience - here are the basics:
+
+- 4hp module "Pet Rock" - generates a new rhythm every night at midnight that you have 24 hours to use (like wordle for rhythms - everyone who owns the module gets the exact same rhythm. no internet connected needed) 
+
+- you get 2 independently clockable (gate in, gate out) 'a' and 'b' rhythms each day so there's flexibility in how you use it/clock it (can be used together as 1 composite rhythm, split into 2 separate rhythms, etc.)
+
+- rhythm generation parameters change according to the real current moon phase, overall "mood" changes every 30 day moon cycle (keeps it fresh - changes between several custom algorithm "moods" that produce distinct styles)
+
+- module will be open source, and sold *at cost of production* (based on prototypes, should be around $15, fully assembled) meaning I will not make any profit from it. Because of this I'm hoping to find distributors that will work with me and understand that I'm not running a normal business - I'm looking to put something interesting out into the eurorack world that anyone can afford
+
+phone: 774-810-5763 
+email: jsenzel1@gmail.com
+
+Best! 
+
+///////////////////////////////////////
+
+The module has a realtime clock that's always running, and every night at midnight it generates a new rhythm that you have exactly one day to use, until another rhythm is generated. It's kind of like wordle - a new little musical challenge each day. Every module will also produce the exact same rhythm each day as all the others, so you can compare how 2 different people used the rhythm in their track.
+
+The module also tracks the current moon phase, and the style of each day's new rhythm is effected by where you are in the moon cycle. 
+
+There are also several entirely different rhythm generation algorithms, which the module swaps between when you reach the end of a complete moon cycle. So just to see all the algorithms you have to use the module for a few months. These super long term modulations keep the 'one per day' concept from getting stale as you feel how the rhythms change over time.
+
+I've done several prototype production runs and everything is pretty much ready to go - just sending some out to get feedback and do some tweaks
+
+
+
+
+
+
+

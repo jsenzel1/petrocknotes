@@ -1,0 +1,41 @@
+--------------------------------------
+
+deleted dnf, is that cool?
+
+--------------------------------------
+
+moved decoupling cap c14 away from the rpi 3v on the bottom side etc. 
+is that alrght? do those need to be close to the crystal?
+
+its only helpful if the doucouplings (the .1uf) having one per power pin to the rp2040 - but having 2 to the same pin is pointless (but secretly they're not super important for my stuff shhh)
+
+--------------------------------------
+
+- Light mask layout on top of board 
+
+--------------------------------------
+
+- Light mask pcb stacking interaction - good ground plane?(Using fem headers for this)
+
+--------------------------------------
+
+- Getting custom footprint/crystal stuff
+
+--------------------------------------
+
+- New regulator ok? (Maybe i can just use the bigger one anyway)
+
+--------------------------------------
+
+- Finding basic part resistors
+
+--------------------------------------
+
+- Wrong polyfuse val - what does it mean? 
+
+--------------------------------------
+
+- What is the circle around the pad? Does that need to be payed attention to more than courtyards for examlpe
+
+--------------------------------------
+
